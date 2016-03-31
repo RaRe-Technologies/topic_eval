@@ -1,0 +1,197 @@
+.tweet
+{
+    margin: 10px;
+    margin-bottom: 1px;
+}
+.wrapper
+{
+    border: 1px solid grey;
+    padding: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: lightgoldenrodyellow;
+}
+.padded
+{
+    padding: 1em;
+}
+.text
+{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.wrapper ul li, .wrapper ul, .wrapper p
+{
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.category
+{
+    float: left;
+    border: 1px solid darkolivegreen;
+    border-right: 0px solid darkolivegreen;
+    width: 95px;
+}
+
+.category .caption
+{
+    font-weight: bold;
+    font-size: 12px;
+    height: 30px;
+    display: block;
+    background-color: ghostwhite;
+}
+.choice
+{
+    font-size: 11px;
+    border-top: 1px solid darkkhaki;
+    padding-left: 2px;
+}
+.choice label, .caption label
+{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    height: 100%;
+}
+
+.choice input, .caption input
+{
+    display: none;
+}
+
+
+:checked + label
+{
+    background-color: palegreen;
+    font-weight: bold;
+}
+
+.control
+{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.control input
+{
+    float: left;
+    border-width: 0;
+    color: white;
+    font-size: 16px;
+    height: 68px;
+    margin: 1px;
+    padding: 0px;
+    cursor: pointer;
+    white-space: normal;
+}
+.control_full input{
+    float: none;;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    margin: 5px;
+}
+.control div {
+    width: 50%; float: left; font-weight: bold; font-size: 20px; color: white; padding-top: 10px;
+    height: 60px;
+}
+.control input:hover
+{
+    text-decoration: underline;
+}
+
+.control .rgreen
+{
+    background-color: #04B431;
+    color: black;
+}
+.control .light
+{
+    color: black;
+}
+.control .light:hover
+{
+    background-color: #00af83;
+    color: white;
+}
+.control .green
+{
+    background-color: #00af83;
+}
+.control .blue
+{
+    background-color: #0076eb;
+}
+.control .orange
+{
+    background-color: #FFBF00;
+    color: black;
+}
+.control input.red
+{
+    background-color: indianred;
+}
+.control input.error
+{
+    background-color: red;
+}
+.control input.grey
+{
+    background-color: darkgray;
+}
+.control input.dgrey
+{
+    background-color: goldenrod;
+}
+header
+{
+    height: 20px;
+    display: block;
+    background-color: lightgoldenrodyellow;
+    border-bottom: 2px solid black;
+}
+header h1
+{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    text-indent: 1em;
+    display: inline-block;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    margin: 1em;
+}
+
+table
+{
+    border-collapse: collapse;
+    border: 2px solid limegreen;
+}
+
+th
+{
+    padding: 5px;
+    border: 2px solid limegreen;
+    background-color: lightgreen;
+}
+
+td
+{
+    padding: 5px;
+    border: 2px solid lightgreen;
+    background-color: white;
+}
