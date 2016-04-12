@@ -1,0 +1,8 @@
+# Launch the cluster
+./ec2/spark-ec2 --key-pair=rarelkkey --identity-file=/home/lev/lda_comparison/rarelkkey.pem  --region=eu-west-1 --zone=eu-west-1a -s 20 --instance-type=c3.large --spot-price=0.8 --spark-version=1.3.1 launch c3-lda-cluster
+
+# copy the corpus in one doc per line format to S3
+# copy Intel LDA libary jar to the driver 
+# ssh to the driver to run spark-submit:
+
+ /root/spark/bin/spark-submit --class org.apache.spark.mllib.topicModeling.LDAExample  --driver-memory 2G --executor-memory 2G /home/ec2-user/topicModel-1.0-SNAPSHOT-jar-with-dependencies.jar --k 100 --optimizer gibbs s3n://@rarelk/text_out.txt.head10k

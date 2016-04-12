@@ -1,0 +1,839 @@
+2016-04-12 16:02:19,577 : INFO : running gensim_train_wiki.py
+2016-04-12 16:02:19,985 : INFO : loaded corpus index from /home/lev/lda_comparison/data/shootout_modified/text_out_nob20_noa10.txt.mm.index
+2016-04-12 16:02:19,985 : INFO : initializing corpus reader from /home/lev/lda_comparison/data/shootout_modified/text_out_nob20_noa10.txt.mm
+2016-04-12 16:02:19,985 : INFO : accepted corpus with 3507620 documents, 97156 features, 538297177 non-zero entries
+2016-04-12 16:02:19,985 : INFO : loading Dictionary object from /home/lev/lda_comparison/data/shootout_modified/text_out_nob20_noa10.txt.dict
+2016-04-12 16:02:20,033 : INFO : using symmetric alpha at 0.01
+2016-04-12 16:02:20,034 : INFO : using symmetric eta at 0.01
+2016-04-12 16:02:20,034 : INFO : using serial LDA version on this node
+2016-04-12 16:02:21,106 : INFO : running online LDA training, 100 topics, 1 passes over the supplied corpus of 3507620 documents, updating every 70000 documents, evaluating every ~0 documents, iterating 50x with a convergence threshold of 0.001000
+2016-04-12 16:02:21,125 : INFO : training LDA model using 7 processes
+2016-04-12 16:02:35,828 : INFO : PROGRESS: pass 0, dispatched chunk #0 = documents up to #10000/3507620, outstanding queue size 1
+2016-04-12 16:02:56,052 : INFO : PROGRESS: pass 0, dispatched chunk #1 = documents up to #20000/3507620, outstanding queue size 2
+2016-04-12 16:03:26,244 : INFO : PROGRESS: pass 0, dispatched chunk #2 = documents up to #30000/3507620, outstanding queue size 3
+2016-04-12 16:03:52,885 : INFO : PROGRESS: pass 0, dispatched chunk #3 = documents up to #40000/3507620, outstanding queue size 3
+2016-04-12 16:04:15,208 : INFO : PROGRESS: pass 0, dispatched chunk #4 = documents up to #50000/3507620, outstanding queue size 4
+2016-04-12 16:04:33,366 : INFO : PROGRESS: pass 0, dispatched chunk #5 = documents up to #60000/3507620, outstanding queue size 4
+2016-04-12 16:04:50,089 : INFO : PROGRESS: pass 0, dispatched chunk #6 = documents up to #70000/3507620, outstanding queue size 4
+2016-04-12 16:05:05,858 : INFO : PROGRESS: pass 0, dispatched chunk #7 = documents up to #80000/3507620, outstanding queue size 5
+2016-04-12 16:05:38,702 : INFO : PROGRESS: pass 0, dispatched chunk #8 = documents up to #90000/3507620, outstanding queue size 5
+2016-04-12 16:05:48,245 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:05:51,054 : INFO : topic #38 (0.010): 0.002*church + 0.002*system + 0.002*population + 0.001*film + 0.001*college + 0.001*god + 0.001*often + 0.001*london + 0.001*we + 0.001*research
+2016-04-12 16:05:51,264 : INFO : topic #13 (0.010): 0.001*town + 0.001*science + 0.001*film + 0.001*population + 0.001*system + 0.001*power + 0.001*album + 0.001*often + 0.001*different + 0.001*military
+2016-04-12 16:05:51,473 : INFO : topic #36 (0.010): 0.008*population + 0.006*living + 0.005*census + 0.005*average + 0.005*income + 0.005*median + 0.005*older + 0.005*families + 0.004*density + 0.004*village
+2016-04-12 16:05:51,680 : INFO : topic #35 (0.010): 0.002*population + 0.002*german + 0.002*system + 0.002*french + 0.001*island + 0.001*even + 0.001*air + 0.001*player + 0.001*france + 0.001*actor
+2016-04-12 16:05:51,895 : INFO : topic #57 (0.010): 0.002*town + 0.002*river + 0.002*population + 0.002*german + 0.001*water + 0.001*per + 0.001*system + 0.001*king + 0.001*president + 0.001*according
+2016-04-12 16:05:52,115 : INFO : topic diff=2.937869, rho=1.000000
+2016-04-12 16:06:08,066 : INFO : PROGRESS: pass 0, dispatched chunk #9 = documents up to #100000/3507620, outstanding queue size 3
+2016-04-12 16:06:32,577 : INFO : PROGRESS: pass 0, dispatched chunk #10 = documents up to #110000/3507620, outstanding queue size 3
+2016-04-12 16:06:57,927 : INFO : PROGRESS: pass 0, dispatched chunk #11 = documents up to #120000/3507620, outstanding queue size 3
+2016-04-12 16:07:21,021 : INFO : PROGRESS: pass 0, dispatched chunk #12 = documents up to #130000/3507620, outstanding queue size 3
+2016-04-12 16:07:52,625 : INFO : PROGRESS: pass 0, dispatched chunk #13 = documents up to #140000/3507620, outstanding queue size 3
+2016-04-12 16:08:08,629 : INFO : PROGRESS: pass 0, dispatched chunk #14 = documents up to #150000/3507620, outstanding queue size 3
+2016-04-12 16:08:28,062 : INFO : PROGRESS: pass 0, dispatched chunk #15 = documents up to #160000/3507620, outstanding queue size 4
+2016-04-12 16:08:51,421 : INFO : PROGRESS: pass 0, dispatched chunk #16 = documents up to #170000/3507620, outstanding queue size 4
+2016-04-12 16:09:00,796 : INFO : merging changes from 80000 documents into a model of 3507620 documents
+2016-04-12 16:09:03,708 : INFO : topic #26 (0.010): 0.004*population + 0.004*township + 0.003*average + 0.003*income + 0.002*town + 0.002*census + 0.002*households + 0.002*males + 0.002*median + 0.002*families
+2016-04-12 16:09:03,722 : INFO : topic #8 (0.010): 0.008*population + 0.006*census + 0.006*median + 0.005*town + 0.005*income + 0.005*households + 0.005*per + 0.005*living + 0.004*average + 0.004*families
+2016-04-12 16:09:03,737 : INFO : topic #89 (0.010): 0.002*economic + 0.002*us + 0.002*ford + 0.002*income + 0.002*land + 0.001*tax + 0.001*population + 0.001*often + 0.001*law + 0.001*million
+2016-04-12 16:09:03,752 : INFO : topic #29 (0.010): 0.005*river + 0.004*army + 0.003*german + 0.003*battle + 0.002*germany + 0.002*forces + 0.002*french + 0.002*population + 0.002*men + 0.001*town
+2016-04-12 16:09:03,766 : INFO : topic #85 (0.010): 0.008*population + 0.006*census + 0.006*households + 0.005*living + 0.005*town + 0.005*average + 0.004*median + 0.004*size + 0.004*families + 0.004*per
+2016-04-12 16:09:03,785 : INFO : topic diff=0.492350, rho=0.353553
+2016-04-12 16:09:19,182 : INFO : PROGRESS: pass 0, dispatched chunk #17 = documents up to #180000/3507620, outstanding queue size 3
+2016-04-12 16:09:37,601 : INFO : PROGRESS: pass 0, dispatched chunk #18 = documents up to #190000/3507620, outstanding queue size 3
+2016-04-12 16:09:55,334 : INFO : PROGRESS: pass 0, dispatched chunk #19 = documents up to #200000/3507620, outstanding queue size 3
+2016-04-12 16:10:14,228 : INFO : PROGRESS: pass 0, dispatched chunk #20 = documents up to #210000/3507620, outstanding queue size 4
+2016-04-12 16:10:35,893 : INFO : PROGRESS: pass 0, dispatched chunk #21 = documents up to #220000/3507620, outstanding queue size 3
+2016-04-12 16:10:59,796 : INFO : PROGRESS: pass 0, dispatched chunk #22 = documents up to #230000/3507620, outstanding queue size 4
+2016-04-12 16:11:13,700 : INFO : PROGRESS: pass 0, dispatched chunk #23 = documents up to #240000/3507620, outstanding queue size 3
+2016-04-12 16:11:30,500 : INFO : PROGRESS: pass 0, dispatched chunk #24 = documents up to #250000/3507620, outstanding queue size 4
+2016-04-12 16:11:39,074 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:11:42,320 : INFO : topic #75 (0.010): 0.004*population + 0.003*library + 0.003*students + 0.003*college + 0.003*campus + 0.002*town + 0.002*census + 0.002*center + 0.002*median + 0.002*living
+2016-04-12 16:11:42,334 : INFO : topic #74 (0.010): 0.009*aircraft + 0.007*air + 0.004*flight + 0.004*force + 0.003*system + 0.003*game + 0.003*engine + 0.002*fighter + 0.002*version + 0.002*design
+2016-04-12 16:11:42,348 : INFO : topic #35 (0.010): 0.006*ship + 0.005*navy + 0.004*ships + 0.003*fleet + 0.003*naval + 0.003*class + 0.003*german + 0.003*sea + 0.002*submarine + 0.002*island
+2016-04-12 16:11:42,362 : INFO : topic #32 (0.010): 0.005*college + 0.003*students + 0.002*park + 0.002*law + 0.002*campus + 0.002*education + 0.002*san + 0.002*center + 0.002*population + 0.002*program
+2016-04-12 16:11:42,376 : INFO : topic #54 (0.010): 0.002*french + 0.002*army + 0.002*german + 0.002*forces + 0.002*force + 0.002*military + 0.001*roman + 0.001*film + 0.001*party + 0.001*france
+2016-04-12 16:11:42,396 : INFO : topic diff=0.211772, rho=0.250000
+2016-04-12 16:11:55,976 : INFO : PROGRESS: pass 0, dispatched chunk #25 = documents up to #260000/3507620, outstanding queue size 4
+2016-04-12 16:12:12,520 : INFO : PROGRESS: pass 0, dispatched chunk #26 = documents up to #270000/3507620, outstanding queue size 3
+2016-04-12 16:12:29,946 : INFO : PROGRESS: pass 0, dispatched chunk #27 = documents up to #280000/3507620, outstanding queue size 4
+2016-04-12 16:12:47,652 : INFO : PROGRESS: pass 0, dispatched chunk #28 = documents up to #290000/3507620, outstanding queue size 3
+2016-04-12 16:13:03,883 : INFO : PROGRESS: pass 0, dispatched chunk #29 = documents up to #300000/3507620, outstanding queue size 3
+2016-04-12 16:13:20,877 : INFO : PROGRESS: pass 0, dispatched chunk #30 = documents up to #310000/3507620, outstanding queue size 4
+2016-04-12 16:13:39,130 : INFO : PROGRESS: pass 0, dispatched chunk #31 = documents up to #320000/3507620, outstanding queue size 4
+2016-04-12 16:13:45,927 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:13:49,387 : INFO : topic #92 (0.010): 0.003*william + 0.002*thomas + 0.002*college + 0.002*james + 0.002*london + 0.002*robert + 0.002*play + 0.002*author + 0.001*band + 0.001*player
+2016-04-12 16:13:49,533 : INFO : topic #6 (0.010): 0.016*px + 0.003*london + 0.002*charles + 0.002*henry + 0.002*william + 0.002*street + 0.002*art + 0.002*england + 0.002*james + 0.002*hill
+2016-04-12 16:13:49,660 : INFO : topic #43 (0.010): 0.007*population + 0.007*space + 0.004*census + 0.004*living + 0.003*families + 0.003*income + 0.003*median + 0.003*average + 0.003*every + 0.003*households
+2016-04-12 16:13:49,750 : INFO : topic #10 (0.010): 0.008*population + 0.007*town + 0.006*species + 0.006*living + 0.005*census + 0.005*males + 0.005*median + 0.005*families + 0.005*average + 0.005*households
+2016-04-12 16:13:49,879 : INFO : topic #87 (0.010): 0.009*court + 0.005*open + 0.003*law + 0.002*champion + 0.002*supreme + 0.002*singles + 0.002*winner + 0.002*australian + 0.002*justice + 0.002*doubles
+2016-04-12 16:13:50,016 : INFO : topic diff=0.152029, rho=0.208514
+2016-04-12 16:14:02,472 : INFO : PROGRESS: pass 0, dispatched chunk #32 = documents up to #330000/3507620, outstanding queue size 4
+2016-04-12 16:14:16,267 : INFO : PROGRESS: pass 0, dispatched chunk #33 = documents up to #340000/3507620, outstanding queue size 3
+2016-04-12 16:14:31,678 : INFO : PROGRESS: pass 0, dispatched chunk #34 = documents up to #350000/3507620, outstanding queue size 3
+2016-04-12 16:14:46,612 : INFO : PROGRESS: pass 0, dispatched chunk #35 = documents up to #360000/3507620, outstanding queue size 4
+2016-04-12 16:15:02,946 : INFO : PROGRESS: pass 0, dispatched chunk #36 = documents up to #370000/3507620, outstanding queue size 4
+2016-04-12 16:15:19,751 : INFO : PROGRESS: pass 0, dispatched chunk #37 = documents up to #380000/3507620, outstanding queue size 4
+2016-04-12 16:15:36,616 : INFO : PROGRESS: pass 0, dispatched chunk #38 = documents up to #390000/3507620, outstanding queue size 4
+2016-04-12 16:15:42,113 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:15:45,282 : INFO : topic #27 (0.010): 0.003*population + 0.002*township + 0.002*average + 0.002*per + 0.002*census + 0.002*median + 0.002*town + 0.002*river + 0.002*present + 0.002*french
+2016-04-12 16:15:45,470 : INFO : topic #67 (0.010): 0.008*show + 0.003*season + 0.003*news + 0.002*tv + 0.002*television + 0.002*episode + 0.002*station + 0.002*cbs + 0.002*nbc + 0.002*game
+2016-04-12 16:15:45,651 : INFO : topic #19 (0.010): 0.006*chinese + 0.005*china + 0.004*dynasty + 0.002*temple + 0.002*period + 0.002*king + 0.002*bc + 0.002*region + 0.002*ancient + 0.002*unknown
+2016-04-12 16:15:45,838 : INFO : topic #70 (0.010): 0.005*show + 0.004*tv + 0.003*film + 0.003*wrestling + 0.003*television + 0.003*championship + 0.003*radio + 0.003*match + 0.002*air + 0.002*episode
+2016-04-12 16:15:46,025 : INFO : topic #31 (0.010): 0.009*town + 0.007*population + 0.004*living + 0.004*income + 0.004*per + 0.003*median + 0.003*average + 0.003*households + 0.003*census + 0.002*density
+2016-04-12 16:15:46,217 : INFO : topic diff=0.127815, rho=0.182574
+2016-04-12 16:15:56,433 : INFO : PROGRESS: pass 0, dispatched chunk #39 = documents up to #400000/3507620, outstanding queue size 4
+2016-04-12 16:16:11,546 : INFO : PROGRESS: pass 0, dispatched chunk #40 = documents up to #410000/3507620, outstanding queue size 3
+2016-04-12 16:16:26,678 : INFO : PROGRESS: pass 0, dispatched chunk #41 = documents up to #420000/3507620, outstanding queue size 3
+2016-04-12 16:16:41,456 : INFO : PROGRESS: pass 0, dispatched chunk #42 = documents up to #430000/3507620, outstanding queue size 4
+2016-04-12 16:16:57,317 : INFO : PROGRESS: pass 0, dispatched chunk #43 = documents up to #440000/3507620, outstanding queue size 4
+2016-04-12 16:17:17,741 : INFO : PROGRESS: pass 0, dispatched chunk #44 = documents up to #450000/3507620, outstanding queue size 4
+2016-04-12 16:17:27,859 : INFO : PROGRESS: pass 0, dispatched chunk #45 = documents up to #460000/3507620, outstanding queue size 4
+2016-04-12 16:17:34,930 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:17:39,017 : INFO : topic #80 (0.010): 0.004*party + 0.003*language + 0.003*population + 0.002*languages + 0.002*french + 0.002*district + 0.002*social + 0.001*income + 0.001*democratic + 0.001*census
+2016-04-12 16:17:39,241 : INFO : topic #99 (0.010): 0.014*population + 0.012*township + 0.010*median + 0.009*census + 0.009*village + 0.008*households + 0.008*families + 0.008*living + 0.008*average + 0.008*income
+2016-04-12 16:17:39,459 : INFO : topic #24 (0.010): 0.003*town + 0.002*population + 0.002*tree + 0.002*island + 0.002*census + 0.002*income + 0.002*development + 0.002*land + 0.002*per + 0.002*often
+2016-04-12 16:17:39,679 : INFO : topic #10 (0.010): 0.008*population + 0.007*species + 0.006*town + 0.005*males + 0.005*living + 0.005*females + 0.005*census + 0.005*white + 0.005*families + 0.005*average
+2016-04-12 16:17:39,925 : INFO : topic #98 (0.010): 0.002*french + 0.002*stores + 0.002*paris + 0.002*la + 0.002*million + 0.002*store + 0.002*business + 0.002*film + 0.002*food + 0.002*le
+2016-04-12 16:17:40,149 : INFO : topic diff=0.117839, rho=0.164399
+2016-04-12 16:17:50,196 : INFO : PROGRESS: pass 0, dispatched chunk #46 = documents up to #470000/3507620, outstanding queue size 4
+2016-04-12 16:18:03,494 : INFO : PROGRESS: pass 0, dispatched chunk #47 = documents up to #480000/3507620, outstanding queue size 3
+2016-04-12 16:18:17,486 : INFO : PROGRESS: pass 0, dispatched chunk #48 = documents up to #490000/3507620, outstanding queue size 4
+2016-04-12 16:18:32,597 : INFO : PROGRESS: pass 0, dispatched chunk #49 = documents up to #500000/3507620, outstanding queue size 4
+2016-04-12 16:18:46,475 : INFO : PROGRESS: pass 0, dispatched chunk #50 = documents up to #510000/3507620, outstanding queue size 4
+2016-04-12 16:19:02,361 : INFO : PROGRESS: pass 0, dispatched chunk #51 = documents up to #520000/3507620, outstanding queue size 4
+2016-04-12 16:19:17,528 : INFO : PROGRESS: pass 0, dispatched chunk #52 = documents up to #530000/3507620, outstanding queue size 4
+2016-04-12 16:19:23,293 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:19:27,123 : INFO : topic #94 (0.010): 0.011*road + 0.005*route + 0.005*college + 0.004*building + 0.004*street + 0.004*centre + 0.003*tower + 0.003*al + 0.003*highway + 0.002*hall
+2016-04-12 16:19:27,328 : INFO : topic #39 (0.010): 0.003*town + 0.002*population + 0.002*per + 0.002*income + 0.002*land + 0.002*families + 0.002*households + 0.002*river + 0.002*college + 0.001*median
+2016-04-12 16:19:27,606 : INFO : topic #9 (0.010): 0.002*system + 0.002*king + 0.002*river + 0.001*army + 0.001*often + 0.001*son + 0.001*earth + 0.001*college + 0.001*water + 0.001*center
+2016-04-12 16:19:27,807 : INFO : topic #71 (0.010): 0.009*saint + 0.008*population + 0.005*living + 0.005*census + 0.005*median + 0.005*village + 0.005*income + 0.005*families + 0.004*average + 0.004*females
+2016-04-12 16:19:27,994 : INFO : topic #89 (0.010): 0.005*bank + 0.004*economic + 0.004*market + 0.003*tax + 0.003*business + 0.003*financial + 0.003*million + 0.002*income + 0.002*services + 0.002*capital
+2016-04-12 16:19:28,189 : INFO : topic diff=0.113249, rho=0.150756
+2016-04-12 16:19:37,668 : INFO : PROGRESS: pass 0, dispatched chunk #53 = documents up to #540000/3507620, outstanding queue size 4
+2016-04-12 16:19:52,116 : INFO : PROGRESS: pass 0, dispatched chunk #54 = documents up to #550000/3507620, outstanding queue size 3
+2016-04-12 16:20:03,692 : INFO : PROGRESS: pass 0, dispatched chunk #55 = documents up to #560000/3507620, outstanding queue size 4
+2016-04-12 16:20:18,120 : INFO : PROGRESS: pass 0, dispatched chunk #56 = documents up to #570000/3507620, outstanding queue size 4
+2016-04-12 16:20:32,854 : INFO : PROGRESS: pass 0, dispatched chunk #57 = documents up to #580000/3507620, outstanding queue size 4
+2016-04-12 16:20:46,609 : INFO : PROGRESS: pass 0, dispatched chunk #58 = documents up to #590000/3507620, outstanding queue size 4
+2016-04-12 16:21:01,268 : INFO : PROGRESS: pass 0, dispatched chunk #59 = documents up to #600000/3507620, outstanding queue size 4
+2016-04-12 16:21:07,701 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:21:11,999 : INFO : topic #63 (0.010): 0.013*league + 0.013*season + 0.008*game + 0.007*club + 0.006*football + 0.006*games + 0.006*cup + 0.005*player + 0.004*championship + 0.004*win
+2016-04-12 16:21:12,219 : INFO : topic #94 (0.010): 0.013*road + 0.006*route + 0.005*college + 0.004*building + 0.004*centre + 0.004*street + 0.003*tower + 0.003*highway + 0.003*al + 0.002*hall
+2016-04-12 16:21:12,479 : INFO : topic #65 (0.010): 0.006*book + 0.005*poetry + 0.004*poet + 0.004*published + 0.003*isbn + 0.003*books + 0.003*poems + 0.003*literature + 0.003*women + 0.003*literary
+2016-04-12 16:21:12,722 : INFO : topic #78 (0.010): 0.003*population + 0.002*system + 0.002*minor + 0.002*median + 0.002*chord + 0.002*income + 0.002*german + 0.002*census + 0.001*per + 0.001*film
+2016-04-12 16:21:12,930 : INFO : topic #83 (0.010): 0.003*river + 0.002*town + 0.002*population + 0.002*township + 0.002*borough + 0.002*jersey + 0.002*form + 0.002*game + 0.001*white + 0.001*district
+2016-04-12 16:21:13,180 : INFO : topic diff=0.109837, rho=0.140028
+2016-04-12 16:21:22,656 : INFO : PROGRESS: pass 0, dispatched chunk #60 = documents up to #610000/3507620, outstanding queue size 4
+2016-04-12 16:21:36,014 : INFO : PROGRESS: pass 0, dispatched chunk #61 = documents up to #620000/3507620, outstanding queue size 3
+2016-04-12 16:21:46,522 : INFO : PROGRESS: pass 0, dispatched chunk #62 = documents up to #630000/3507620, outstanding queue size 3
+2016-04-12 16:21:59,829 : INFO : PROGRESS: pass 0, dispatched chunk #63 = documents up to #640000/3507620, outstanding queue size 4
+2016-04-12 16:22:14,042 : INFO : PROGRESS: pass 0, dispatched chunk #64 = documents up to #650000/3507620, outstanding queue size 4
+2016-04-12 16:22:28,926 : INFO : PROGRESS: pass 0, dispatched chunk #65 = documents up to #660000/3507620, outstanding queue size 4
+2016-04-12 16:22:42,137 : INFO : PROGRESS: pass 0, dispatched chunk #66 = documents up to #670000/3507620, outstanding queue size 4
+2016-04-12 16:22:48,750 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:22:52,605 : INFO : topic #59 (0.010): 0.022*station + 0.015*railway + 0.007*trains + 0.006*train + 0.006*rail + 0.006*service + 0.006*street + 0.006*bus + 0.005*services + 0.004*stations
+2016-04-12 16:22:52,803 : INFO : topic #26 (0.010): 0.022*fm + 0.013*radio + 0.007*am + 0.006*station + 0.005*broadcasting + 0.004*inc + 0.003*population + 0.003*township + 0.003*stations + 0.002*contemporary
+2016-04-12 16:22:53,000 : INFO : topic #3 (0.010): 0.006*russian + 0.005*soviet + 0.004*russia + 0.004*republic + 0.003*union + 0.003*political + 0.003*party + 0.003*president + 0.003*jewish + 0.002*jews
+2016-04-12 16:22:53,202 : INFO : topic #10 (0.010): 0.008*species + 0.008*population + 0.005*white + 0.005*males + 0.005*town + 0.005*females + 0.005*living + 0.005*female + 0.004*male + 0.004*size
+2016-04-12 16:22:53,403 : INFO : topic #7 (0.010): 0.003*church + 0.003*religious + 0.003*king + 0.002*isbn + 0.002*pope + 0.002*catholic + 0.002*book + 0.002*england + 0.002*published + 0.002*religion
+2016-04-12 16:22:53,606 : INFO : topic diff=0.106909, rho=0.131306
+2016-04-12 16:23:04,593 : INFO : PROGRESS: pass 0, dispatched chunk #67 = documents up to #680000/3507620, outstanding queue size 4
+2016-04-12 16:23:13,797 : INFO : PROGRESS: pass 0, dispatched chunk #68 = documents up to #690000/3507620, outstanding queue size 3
+2016-04-12 16:23:25,695 : INFO : PROGRESS: pass 0, dispatched chunk #69 = documents up to #700000/3507620, outstanding queue size 3
+2016-04-12 16:23:36,706 : INFO : PROGRESS: pass 0, dispatched chunk #70 = documents up to #710000/3507620, outstanding queue size 4
+2016-04-12 16:23:51,118 : INFO : PROGRESS: pass 0, dispatched chunk #71 = documents up to #720000/3507620, outstanding queue size 4
+2016-04-12 16:24:05,878 : INFO : PROGRESS: pass 0, dispatched chunk #72 = documents up to #730000/3507620, outstanding queue size 4
+2016-04-12 16:24:19,985 : INFO : PROGRESS: pass 0, dispatched chunk #73 = documents up to #740000/3507620, outstanding queue size 4
+2016-04-12 16:24:25,701 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:24:29,439 : INFO : topic #72 (0.010): 0.010*car + 0.008*engine + 0.005*cars + 0.005*model + 0.004*ford + 0.003*models + 0.003*cc + 0.003*rear + 0.003*production + 0.003*front
+2016-04-12 16:24:29,680 : INFO : topic #9 (0.010): 0.002*system + 0.002*king + 0.002*river + 0.001*army + 0.001*often + 0.001*earth + 0.001*son + 0.001*college + 0.001*water + 0.001*center
+2016-04-12 16:24:29,915 : INFO : topic #83 (0.010): 0.003*river + 0.002*town + 0.002*population + 0.002*township + 0.002*jersey + 0.002*borough + 0.002*form + 0.002*game + 0.001*white + 0.001*district
+2016-04-12 16:24:30,156 : INFO : topic #63 (0.010): 0.014*season + 0.013*league + 0.008*game + 0.007*club + 0.006*football + 0.006*games + 0.006*cup + 0.005*player + 0.005*championship + 0.004*win
+2016-04-12 16:24:30,386 : INFO : topic #36 (0.010): 0.008*population + 0.006*living + 0.006*census + 0.006*average + 0.006*income + 0.005*older + 0.005*median + 0.005*families + 0.005*village + 0.004*density
+2016-04-12 16:24:30,625 : INFO : topic diff=0.106584, rho=0.124035
+2016-04-12 16:24:38,884 : INFO : PROGRESS: pass 0, dispatched chunk #74 = documents up to #750000/3507620, outstanding queue size 4
+2016-04-12 16:24:50,673 : INFO : PROGRESS: pass 0, dispatched chunk #75 = documents up to #760000/3507620, outstanding queue size 3
+2016-04-12 16:25:02,270 : INFO : PROGRESS: pass 0, dispatched chunk #76 = documents up to #770000/3507620, outstanding queue size 3
+2016-04-12 16:25:14,774 : INFO : PROGRESS: pass 0, dispatched chunk #77 = documents up to #780000/3507620, outstanding queue size 4
+2016-04-12 16:25:28,668 : INFO : PROGRESS: pass 0, dispatched chunk #78 = documents up to #790000/3507620, outstanding queue size 4
+2016-04-12 16:25:43,347 : INFO : PROGRESS: pass 0, dispatched chunk #79 = documents up to #800000/3507620, outstanding queue size 3
+2016-04-12 16:25:53,846 : INFO : PROGRESS: pass 0, dispatched chunk #80 = documents up to #810000/3507620, outstanding queue size 4
+2016-04-12 16:25:59,921 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:26:03,593 : INFO : topic #14 (0.010): 0.004*patent + 0.004*earl + 0.004*km + 0.003*henry + 0.002*dna + 0.002*son + 0.002*king + 0.002*duke + 0.002*ft + 0.002*church
+2016-04-12 16:26:03,725 : INFO : topic #71 (0.010): 0.017*saint + 0.008*population + 0.005*sur + 0.005*village + 0.005*census + 0.005*living + 0.004*median + 0.004*income + 0.004*la + 0.004*families
+2016-04-12 16:26:03,853 : INFO : topic #82 (0.010): 0.003*game + 0.002*games + 0.002*village + 0.002*glass + 0.002*population + 0.001*often + 0.001*film + 0.001*town + 0.001*river + 0.001*language
+2016-04-12 16:26:03,984 : INFO : topic #61 (0.010): 0.004*cells + 0.004*cell + 0.003*acid + 0.002*disease + 0.002*blood + 0.002*treatment + 0.002*water + 0.002*system + 0.002*process + 0.002*protein
+2016-04-12 16:26:04,113 : INFO : topic #72 (0.010): 0.011*car + 0.008*engine + 0.005*cars + 0.005*model + 0.004*ford + 0.003*models + 0.003*cc + 0.003*racing + 0.003*production + 0.003*rear
+2016-04-12 16:26:04,249 : INFO : topic diff=0.109129, rho=0.117851
+2016-04-12 16:26:12,037 : INFO : PROGRESS: pass 0, dispatched chunk #81 = documents up to #820000/3507620, outstanding queue size 4
+2016-04-12 16:26:23,950 : INFO : PROGRESS: pass 0, dispatched chunk #82 = documents up to #830000/3507620, outstanding queue size 3
+2016-04-12 16:26:33,737 : INFO : PROGRESS: pass 0, dispatched chunk #83 = documents up to #840000/3507620, outstanding queue size 4
+2016-04-12 16:26:46,587 : INFO : PROGRESS: pass 0, dispatched chunk #84 = documents up to #850000/3507620, outstanding queue size 4
+2016-04-12 16:26:59,927 : INFO : PROGRESS: pass 0, dispatched chunk #85 = documents up to #860000/3507620, outstanding queue size 4
+2016-04-12 16:27:12,908 : INFO : PROGRESS: pass 0, dispatched chunk #86 = documents up to #870000/3507620, outstanding queue size 4
+2016-04-12 16:27:24,591 : INFO : PROGRESS: pass 0, dispatched chunk #87 = documents up to #880000/3507620, outstanding queue size 4
+2016-04-12 16:27:30,807 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:27:34,961 : INFO : topic #51 (0.010): 0.003*social + 0.002*theory + 0.002*film + 0.002*science + 0.002*published + 0.002*isbn + 0.002*often + 0.002*magazine + 0.001*book + 0.001*band
+2016-04-12 16:27:35,215 : INFO : topic #12 (0.010): 0.006*bridge + 0.005*mm + 0.003*class + 0.003*system + 0.003*service + 0.003*vehicle + 0.003*vehicles + 0.003*air + 0.003*tank + 0.002*units
+2016-04-12 16:27:35,556 : INFO : topic #75 (0.010): 0.012*students + 0.011*college + 0.007*campus + 0.006*student + 0.006*library + 0.006*building + 0.006*center + 0.004*schools + 0.004*hall + 0.004*education
+2016-04-12 16:27:35,807 : INFO : topic #48 (0.010): 0.004*game + 0.004*man + 0.004*character + 0.003*story + 0.003*episode + 0.003*film + 0.003*book + 0.003*characters + 0.003*comics + 0.002*comic
+2016-04-12 16:27:36,032 : INFO : topic #55 (0.010): 0.006*population + 0.006*yes + 0.006*census + 0.005*town + 0.004*income + 0.004*living + 0.004*median + 0.004*average + 0.004*households + 0.004*families
+2016-04-12 16:27:36,269 : INFO : topic diff=0.110140, rho=0.112509
+2016-04-12 16:27:43,597 : INFO : PROGRESS: pass 0, dispatched chunk #88 = documents up to #890000/3507620, outstanding queue size 4
+2016-04-12 16:27:55,206 : INFO : PROGRESS: pass 0, dispatched chunk #89 = documents up to #900000/3507620, outstanding queue size 3
+2016-04-12 16:28:07,423 : INFO : PROGRESS: pass 0, dispatched chunk #90 = documents up to #910000/3507620, outstanding queue size 3
+2016-04-12 16:28:17,659 : INFO : PROGRESS: pass 0, dispatched chunk #91 = documents up to #920000/3507620, outstanding queue size 4
+2016-04-12 16:28:29,737 : INFO : PROGRESS: pass 0, dispatched chunk #92 = documents up to #930000/3507620, outstanding queue size 4
+2016-04-12 16:28:41,871 : INFO : PROGRESS: pass 0, dispatched chunk #93 = documents up to #940000/3507620, outstanding queue size 4
+2016-04-12 16:28:55,404 : INFO : PROGRESS: pass 0, dispatched chunk #94 = documents up to #950000/3507620, outstanding queue size 4
+2016-04-12 16:29:01,448 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:29:05,645 : INFO : topic #6 (0.010): 0.020*px + 0.007*sir + 0.007*london + 0.006*william + 0.005*england + 0.004*henry + 0.004*lord + 0.004*george + 0.003*charles + 0.003*thomas
+2016-04-12 16:29:05,766 : INFO : topic #17 (0.010): 0.005*al + 0.003*route + 0.002*system + 0.001*population + 0.001*service + 0.001*french + 0.001*point + 0.001*german + 0.001*center + 0.001*us
+2016-04-12 16:29:05,899 : INFO : topic #63 (0.010): 0.014*season + 0.014*league + 0.008*game + 0.007*football + 0.007*club + 0.007*games + 0.006*cup + 0.005*player + 0.005*championship + 0.004*round
+2016-04-12 16:29:06,041 : INFO : topic #27 (0.010): 0.003*population + 0.003*iso + 0.002*atomic + 0.002*per + 0.002*average + 0.002*township + 0.002*atom + 0.002*census + 0.002*town + 0.002*median
+2016-04-12 16:29:06,177 : INFO : topic #33 (0.010): 0.006*network + 0.006*data + 0.005*system + 0.005*channel + 0.005*software + 0.004*digital + 0.004*windows + 0.004*radio + 0.003*systems + 0.003*station
+2016-04-12 16:29:06,305 : INFO : topic diff=0.111152, rho=0.107833
+2016-04-12 16:29:13,820 : INFO : PROGRESS: pass 0, dispatched chunk #95 = documents up to #960000/3507620, outstanding queue size 4
+2016-04-12 16:29:25,473 : INFO : PROGRESS: pass 0, dispatched chunk #96 = documents up to #970000/3507620, outstanding queue size 3
+2016-04-12 16:29:35,699 : INFO : PROGRESS: pass 0, dispatched chunk #97 = documents up to #980000/3507620, outstanding queue size 4
+2016-04-12 16:29:48,443 : INFO : PROGRESS: pass 0, dispatched chunk #98 = documents up to #990000/3507620, outstanding queue size 4
+2016-04-12 16:30:01,123 : INFO : PROGRESS: pass 0, dispatched chunk #99 = documents up to #1000000/3507620, outstanding queue size 4
+2016-04-12 16:30:13,929 : INFO : PROGRESS: pass 0, dispatched chunk #100 = documents up to #1010000/3507620, outstanding queue size 4
+2016-04-12 16:30:25,711 : INFO : PROGRESS: pass 0, dispatched chunk #101 = documents up to #1020000/3507620, outstanding queue size 4
+2016-04-12 16:30:32,214 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:30:36,025 : INFO : topic #62 (0.010): 0.007*san + 0.004*player + 0.004*california + 0.003*francisco + 0.003*award + 0.003*david + 0.002*magazine + 0.002*robert + 0.002*author + 0.002*editor
+2016-04-12 16:30:36,258 : INFO : topic #80 (0.010): 0.006*language + 0.005*languages + 0.004*party + 0.003*population + 0.002*french + 0.002*social + 0.002*district + 0.001*democratic + 0.001*often + 0.001*system
+2016-04-12 16:30:36,486 : INFO : topic #8 (0.010): 0.008*population + 0.006*census + 0.005*median + 0.005*town + 0.005*income + 0.005*households + 0.005*per + 0.004*living + 0.004*average + 0.004*families
+2016-04-12 16:30:36,714 : INFO : topic #46 (0.010): 0.031*socorro + 0.011*linear + 0.008*population + 0.007*census + 0.006*households + 0.006*average + 0.005*living + 0.005*families + 0.005*income + 0.005*median
+2016-04-12 16:30:36,941 : INFO : topic #4 (0.010): 0.021*art + 0.013*museum + 0.006*gallery + 0.005*painting + 0.005*works + 0.004*van + 0.004*artist + 0.004*artists + 0.004*paintings + 0.004*painter
+2016-04-12 16:30:37,184 : INFO : topic diff=0.113985, rho=0.103695
+2016-04-12 16:30:44,627 : INFO : PROGRESS: pass 0, dispatched chunk #102 = documents up to #1030000/3507620, outstanding queue size 4
+2016-04-12 16:30:54,264 : INFO : PROGRESS: pass 0, dispatched chunk #103 = documents up to #1040000/3507620, outstanding queue size 4
+2016-04-12 16:31:04,474 : INFO : PROGRESS: pass 0, dispatched chunk #104 = documents up to #1050000/3507620, outstanding queue size 3
+2016-04-12 16:31:14,393 : INFO : PROGRESS: pass 0, dispatched chunk #105 = documents up to #1060000/3507620, outstanding queue size 4
+2016-04-12 16:31:25,246 : INFO : PROGRESS: pass 0, dispatched chunk #106 = documents up to #1070000/3507620, outstanding queue size 4
+2016-04-12 16:31:37,385 : INFO : PROGRESS: pass 0, dispatched chunk #107 = documents up to #1080000/3507620, outstanding queue size 4
+2016-04-12 16:31:49,452 : INFO : PROGRESS: pass 0, dispatched chunk #108 = documents up to #1090000/3507620, outstanding queue size 4
+2016-04-12 16:31:54,478 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:31:59,065 : INFO : topic #32 (0.010): 0.021*college + 0.015*students + 0.012*education + 0.012*schools + 0.006*program + 0.005*student + 0.005*community + 0.004*campus + 0.004*programs + 0.004*arts
+2016-04-12 16:31:59,247 : INFO : topic #75 (0.010): 0.013*students + 0.012*college + 0.007*campus + 0.007*student + 0.006*building + 0.006*library + 0.006*center + 0.005*schools + 0.005*hall + 0.004*program
+2016-04-12 16:31:59,430 : INFO : topic #35 (0.010): 0.014*ship + 0.012*navy + 0.008*ships + 0.007*naval + 0.006*fleet + 0.006*class + 0.005*sea + 0.004*service + 0.004*uss + 0.004*admiral
+2016-04-12 16:31:59,607 : INFO : topic #18 (0.010): 0.006*linear + 0.005*example + 0.005*function + 0.004*theory + 0.004*we + 0.004*model + 0.003*system + 0.003*value + 0.003*given + 0.003*point
+2016-04-12 16:31:59,779 : INFO : topic #41 (0.010): 0.007*dutch + 0.005*finnish + 0.005*finland + 0.003*indonesia + 0.003*town + 0.003*population + 0.003*indonesian + 0.002*netherlands + 0.002*star + 0.002*river
+2016-04-12 16:31:59,962 : INFO : topic diff=0.115761, rho=0.100000
+2016-04-12 16:32:07,571 : INFO : PROGRESS: pass 0, dispatched chunk #109 = documents up to #1100000/3507620, outstanding queue size 4
+2016-04-12 16:32:17,586 : INFO : PROGRESS: pass 0, dispatched chunk #110 = documents up to #1110000/3507620, outstanding queue size 3
+2016-04-12 16:32:26,774 : INFO : PROGRESS: pass 0, dispatched chunk #111 = documents up to #1120000/3507620, outstanding queue size 3
+2016-04-12 16:32:37,986 : INFO : PROGRESS: pass 0, dispatched chunk #112 = documents up to #1130000/3507620, outstanding queue size 4
+2016-04-12 16:32:50,011 : INFO : PROGRESS: pass 0, dispatched chunk #113 = documents up to #1140000/3507620, outstanding queue size 4
+2016-04-12 16:33:01,959 : INFO : PROGRESS: pass 0, dispatched chunk #114 = documents up to #1150000/3507620, outstanding queue size 4
+2016-04-12 16:33:13,964 : INFO : PROGRESS: pass 0, dispatched chunk #115 = documents up to #1160000/3507620, outstanding queue size 4
+2016-04-12 16:33:18,542 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:33:22,424 : INFO : topic #41 (0.010): 0.008*dutch + 0.006*finnish + 0.006*finland + 0.004*indonesia + 0.003*indonesian + 0.003*netherlands + 0.003*town + 0.003*population + 0.002*star + 0.002*river
+2016-04-12 16:33:22,659 : INFO : topic #1 (0.010): 0.009*population + 0.008*census + 0.006*average + 0.005*living + 0.005*income + 0.005*households + 0.005*median + 0.004*families + 0.004*per + 0.004*density
+2016-04-12 16:33:22,925 : INFO : topic #40 (0.010): 0.005*town + 0.003*population + 0.003*party + 0.003*african + 0.002*average + 0.002*nigeria + 0.002*living + 0.002*per + 0.002*median + 0.002*white
+2016-04-12 16:33:23,158 : INFO : topic #50 (0.010): 0.022*album + 0.017*band + 0.010*song + 0.008*guitar + 0.007*vocals + 0.007*chart + 0.007*track + 0.006*rock + 0.006*records + 0.005*live
+2016-04-12 16:33:23,390 : INFO : topic #49 (0.010): 0.005*population + 0.005*township + 0.004*median + 0.004*average + 0.003*income + 0.003*census + 0.003*families + 0.003*living + 0.003*females + 0.003*per
+2016-04-12 16:33:23,605 : INFO : topic diff=0.119347, rho=0.096674
+2016-04-12 16:33:30,318 : INFO : PROGRESS: pass 0, dispatched chunk #116 = documents up to #1170000/3507620, outstanding queue size 4
+2016-04-12 16:33:39,387 : INFO : PROGRESS: pass 0, dispatched chunk #117 = documents up to #1180000/3507620, outstanding queue size 4
+2016-04-12 16:33:48,494 : INFO : PROGRESS: pass 0, dispatched chunk #118 = documents up to #1190000/3507620, outstanding queue size 4
+2016-04-12 16:33:59,655 : INFO : PROGRESS: pass 0, dispatched chunk #119 = documents up to #1200000/3507620, outstanding queue size 4
+2016-04-12 16:34:10,778 : INFO : PROGRESS: pass 0, dispatched chunk #120 = documents up to #1210000/3507620, outstanding queue size 4
+2016-04-12 16:34:22,918 : INFO : PROGRESS: pass 0, dispatched chunk #121 = documents up to #1220000/3507620, outstanding queue size 4
+2016-04-12 16:34:34,794 : INFO : PROGRESS: pass 0, dispatched chunk #122 = documents up to #1230000/3507620, outstanding queue size 4
+2016-04-12 16:34:39,703 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:34:43,353 : INFO : topic #32 (0.010): 0.022*college + 0.017*students + 0.013*education + 0.013*schools + 0.007*program + 0.006*student + 0.005*community + 0.005*district + 0.004*elementary + 0.004*campus
+2016-04-12 16:34:43,462 : INFO : topic #85 (0.010): 0.008*population + 0.006*census + 0.005*households + 0.005*living + 0.005*town + 0.005*average + 0.004*median + 0.004*size + 0.004*families + 0.004*per
+2016-04-12 16:34:43,582 : INFO : topic #2 (0.010): 0.011*district + 0.006*republican + 0.006*virginia + 0.005*pennsylvania + 0.005*washington + 0.005*ohio + 0.005*carolina + 0.005*democratic + 0.004*texas + 0.004*highway
+2016-04-12 16:34:43,688 : INFO : topic #56 (0.010): 0.020*card + 0.020*cards + 0.004*player + 0.003*game + 0.003*suit + 0.002*deck + 0.002*hand + 0.002*mw + 0.002*play + 0.002*players
+2016-04-12 16:34:43,801 : INFO : topic #28 (0.010): 0.011*act + 0.008*law + 0.005*court + 0.005*rights + 0.003*legal + 0.003*case + 0.003*amendment + 0.003*federal + 0.003*regulations + 0.003*information
+2016-04-12 16:34:43,920 : INFO : topic diff=0.121690, rho=0.093659
+2016-04-12 16:34:54,514 : INFO : PROGRESS: pass 0, dispatched chunk #123 = documents up to #1240000/3507620, outstanding queue size 4
+2016-04-12 16:35:00,748 : INFO : PROGRESS: pass 0, dispatched chunk #124 = documents up to #1250000/3507620, outstanding queue size 4
+2016-04-12 16:35:09,637 : INFO : PROGRESS: pass 0, dispatched chunk #125 = documents up to #1260000/3507620, outstanding queue size 4
+2016-04-12 16:35:21,406 : INFO : PROGRESS: pass 0, dispatched chunk #126 = documents up to #1270000/3507620, outstanding queue size 4
+2016-04-12 16:35:33,724 : INFO : PROGRESS: pass 0, dispatched chunk #127 = documents up to #1280000/3507620, outstanding queue size 4
+2016-04-12 16:35:44,427 : INFO : PROGRESS: pass 0, dispatched chunk #128 = documents up to #1290000/3507620, outstanding queue size 4
+2016-04-12 16:35:56,012 : INFO : PROGRESS: pass 0, dispatched chunk #129 = documents up to #1300000/3507620, outstanding queue size 4
+2016-04-12 16:36:01,673 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:36:05,382 : INFO : topic #16 (0.010): 0.016*species + 0.006*genus + 0.004*plant + 0.004*plants + 0.003*el + 0.003*puerto + 0.003*common + 0.003*la + 0.003*tree + 0.002*black
+2016-04-12 16:36:05,517 : INFO : topic #98 (0.010): 0.010*la + 0.009*french + 0.008*le + 0.007*paris + 0.007*stores + 0.007*store + 0.005*du + 0.005*les + 0.005*france + 0.004*et
+2016-04-12 16:36:05,645 : INFO : topic #77 (0.010): 0.006*wine + 0.005*food + 0.004*oil + 0.003*tea + 0.003*meat + 0.003*rice + 0.003*often + 0.002*sugar + 0.002*popular + 0.002*numbers
+2016-04-12 16:36:05,776 : INFO : topic #23 (0.010): 0.029*air + 0.012*force + 0.008*squadron + 0.007*base + 0.006*vietnam + 0.006*wing + 0.005*aircraft + 0.005*training + 0.004*command + 0.004*operations
+2016-04-12 16:36:05,910 : INFO : topic #95 (0.010): 0.008*song + 0.008*album + 0.006*you + 0.005*love + 0.004*me + 0.004*songs + 0.004*my + 0.003*orchestra + 0.003*performed + 0.003*piano
+2016-04-12 16:36:06,037 : INFO : topic diff=0.124920, rho=0.090909
+2016-04-12 16:36:12,461 : INFO : PROGRESS: pass 0, dispatched chunk #130 = documents up to #1310000/3507620, outstanding queue size 4
+2016-04-12 16:36:21,661 : INFO : PROGRESS: pass 0, dispatched chunk #131 = documents up to #1320000/3507620, outstanding queue size 3
+2016-04-12 16:36:32,140 : INFO : PROGRESS: pass 0, dispatched chunk #132 = documents up to #1330000/3507620, outstanding queue size 3
+2016-04-12 16:36:42,367 : INFO : PROGRESS: pass 0, dispatched chunk #133 = documents up to #1340000/3507620, outstanding queue size 4
+2016-04-12 16:36:58,096 : INFO : PROGRESS: pass 0, dispatched chunk #134 = documents up to #1350000/3507620, outstanding queue size 4
+2016-04-12 16:37:06,321 : INFO : PROGRESS: pass 0, dispatched chunk #135 = documents up to #1360000/3507620, outstanding queue size 4
+2016-04-12 16:37:18,373 : INFO : PROGRESS: pass 0, dispatched chunk #136 = documents up to #1370000/3507620, outstanding queue size 4
+2016-04-12 16:37:22,760 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:37:26,697 : INFO : topic #52 (0.010): 0.020*texas + 0.002*houston + 0.002*population + 0.002*average + 0.002*living + 0.002*mario + 0.002*german + 0.002*game + 0.002*party + 0.002*film
+2016-04-12 16:37:26,899 : INFO : topic #89 (0.010): 0.007*bank + 0.006*business + 0.005*market + 0.005*million + 0.004*economic + 0.004*financial + 0.004*tax + 0.004*companies + 0.004*services + 0.003*trade
+2016-04-12 16:37:27,125 : INFO : topic #39 (0.010): 0.004*ap + 0.003*auburn + 0.003*town + 0.002*population + 0.002*atlas + 0.002*mindanao + 0.002*per + 0.002*crane + 0.002*land + 0.002*income
+2016-04-12 16:37:27,356 : INFO : topic #55 (0.010): 0.014*yes + 0.006*population + 0.006*census + 0.005*town + 0.005*kenya + 0.004*living + 0.004*income + 0.004*median + 0.004*average + 0.004*households
+2016-04-12 16:37:27,554 : INFO : topic #47 (0.010): 0.025*hospital + 0.023*medical + 0.021*health + 0.011*care + 0.008*medicine + 0.005*patients + 0.004*center + 0.004*surgery + 0.004*hospitals + 0.004*patient
+2016-04-12 16:37:27,751 : INFO : topic diff=0.132138, rho=0.088388
+2016-04-12 16:37:34,259 : INFO : PROGRESS: pass 0, dispatched chunk #137 = documents up to #1380000/3507620, outstanding queue size 4
+2016-04-12 16:37:45,164 : INFO : PROGRESS: pass 0, dispatched chunk #138 = documents up to #1390000/3507620, outstanding queue size 3
+2016-04-12 16:37:52,865 : INFO : PROGRESS: pass 0, dispatched chunk #139 = documents up to #1400000/3507620, outstanding queue size 3
+2016-04-12 16:38:03,445 : INFO : PROGRESS: pass 0, dispatched chunk #140 = documents up to #1410000/3507620, outstanding queue size 4
+2016-04-12 16:38:15,702 : INFO : PROGRESS: pass 0, dispatched chunk #141 = documents up to #1420000/3507620, outstanding queue size 4
+2016-04-12 16:38:28,118 : INFO : PROGRESS: pass 0, dispatched chunk #142 = documents up to #1430000/3507620, outstanding queue size 4
+2016-04-12 16:38:39,516 : INFO : PROGRESS: pass 0, dispatched chunk #143 = documents up to #1440000/3507620, outstanding queue size 4
+2016-04-12 16:38:43,767 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:38:48,783 : INFO : topic #21 (0.010): 0.011*houten + 0.007*van + 0.006*groeneveld + 0.005*gehrels + 0.005*township + 0.004*game + 0.002*games + 0.002*population + 0.002*system + 0.002*dice
+2016-04-12 16:38:48,885 : INFO : topic #98 (0.010): 0.013*la + 0.011*french + 0.009*le + 0.008*paris + 0.007*store + 0.007*stores + 0.006*du + 0.005*france + 0.005*les + 0.005*et
+2016-04-12 16:38:48,961 : INFO : topic #33 (0.010): 0.006*data + 0.006*system + 0.006*software + 0.006*network + 0.005*digital + 0.004*windows + 0.004*channel + 0.004*systems + 0.003*user + 0.003*service
+2016-04-12 16:38:49,078 : INFO : topic #72 (0.010): 0.015*car + 0.009*engine + 0.008*racing + 0.007*cars + 0.006*ford + 0.006*model + 0.005*cc + 0.005*race + 0.004*models + 0.004*speed
+2016-04-12 16:38:49,198 : INFO : topic #39 (0.010): 0.004*ap + 0.004*auburn + 0.002*town + 0.002*population + 0.002*atlas + 0.002*mindanao + 0.002*crane + 0.002*per + 0.002*hopkins + 0.002*land
+2016-04-12 16:38:49,360 : INFO : topic diff=0.132236, rho=0.086066
+2016-04-12 16:38:56,217 : INFO : PROGRESS: pass 0, dispatched chunk #144 = documents up to #1450000/3507620, outstanding queue size 4
+2016-04-12 16:39:05,470 : INFO : PROGRESS: pass 0, dispatched chunk #145 = documents up to #1460000/3507620, outstanding queue size 4
+2016-04-12 16:39:15,505 : INFO : PROGRESS: pass 0, dispatched chunk #146 = documents up to #1470000/3507620, outstanding queue size 3
+2016-04-12 16:39:27,476 : INFO : PROGRESS: pass 0, dispatched chunk #147 = documents up to #1480000/3507620, outstanding queue size 4
+2016-04-12 16:39:36,320 : INFO : PROGRESS: pass 0, dispatched chunk #148 = documents up to #1490000/3507620, outstanding queue size 4
+2016-04-12 16:39:48,254 : INFO : PROGRESS: pass 0, dispatched chunk #149 = documents up to #1500000/3507620, outstanding queue size 4
+2016-04-12 16:40:00,059 : INFO : PROGRESS: pass 0, dispatched chunk #150 = documents up to #1510000/3507620, outstanding queue size 4
+2016-04-12 16:40:05,018 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:40:08,126 : INFO : topic #50 (0.010): 0.023*album + 0.017*band + 0.011*song + 0.008*guitar + 0.008*chart + 0.008*vocals + 0.008*track + 0.006*records + 0.006*rock + 0.005*live
+2016-04-12 16:40:08,266 : INFO : topic #81 (0.010): 0.020*film + 0.006*episode + 0.005*award + 0.005*television + 0.005*tv + 0.004*role + 0.004*show + 0.004*films + 0.004*actor + 0.004*movie
+2016-04-12 16:40:08,404 : INFO : topic #8 (0.010): 0.008*population + 0.005*census + 0.005*town + 0.005*median + 0.005*income + 0.005*households + 0.005*per + 0.004*living + 0.004*average + 0.004*families
+2016-04-12 16:40:08,543 : INFO : topic #74 (0.010): 0.013*game + 0.011*aircraft + 0.009*air + 0.006*player + 0.005*flight + 0.005*games + 0.004*force + 0.004*engine + 0.004*version + 0.004*system
+2016-04-12 16:40:08,692 : INFO : topic #18 (0.010): 0.005*example + 0.005*theory + 0.005*function + 0.004*linear + 0.004*model + 0.004*we + 0.004*system + 0.003*value + 0.003*given + 0.003*using
+2016-04-12 16:40:08,835 : INFO : topic diff=0.138276, rho=0.083918
+2016-04-12 16:40:14,929 : INFO : PROGRESS: pass 0, dispatched chunk #151 = documents up to #1520000/3507620, outstanding queue size 4
+2016-04-12 16:40:24,736 : INFO : PROGRESS: pass 0, dispatched chunk #152 = documents up to #1530000/3507620, outstanding queue size 4
+2016-04-12 16:40:33,082 : INFO : PROGRESS: pass 0, dispatched chunk #153 = documents up to #1540000/3507620, outstanding queue size 4
+2016-04-12 16:40:44,044 : INFO : PROGRESS: pass 0, dispatched chunk #154 = documents up to #1550000/3507620, outstanding queue size 4
+2016-04-12 16:40:55,657 : INFO : PROGRESS: pass 0, dispatched chunk #155 = documents up to #1560000/3507620, outstanding queue size 4
+2016-04-12 16:41:05,471 : INFO : PROGRESS: pass 0, dispatched chunk #156 = documents up to #1570000/3507620, outstanding queue size 4
+2016-04-12 16:41:16,697 : INFO : PROGRESS: pass 0, dispatched chunk #157 = documents up to #1580000/3507620, outstanding queue size 4
+2016-04-12 16:41:21,028 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:41:25,859 : INFO : topic #5 (0.010): 0.009*portuguese + 0.008*brazil + 0.007*brazilian + 0.006*da + 0.005*ski + 0.005*km + 0.005*do + 0.005*singer + 0.004*politician + 0.004*slalom
+2016-04-12 16:41:26,047 : INFO : topic #18 (0.010): 0.005*example + 0.005*theory + 0.005*function + 0.004*linear + 0.004*model + 0.004*we + 0.004*system + 0.003*value + 0.003*given + 0.003*data
+2016-04-12 16:41:26,190 : INFO : topic #46 (0.010): 0.090*socorro + 0.076*linear + 0.016*anderson + 0.012*palomar + 0.011*peak + 0.011*mesa + 0.011*kitt + 0.010*spacewatch + 0.010*neat + 0.008*loneos
+2016-04-12 16:41:26,322 : INFO : topic #13 (0.010): 0.013*research + 0.011*science + 0.009*institute + 0.007*engineering + 0.006*education + 0.006*technology + 0.005*society + 0.005*professor + 0.005*development + 0.004*department
+2016-04-12 16:41:26,461 : INFO : topic #41 (0.010): 0.015*dutch + 0.010*finnish + 0.009*finland + 0.008*indonesia + 0.006*netherlands + 0.005*indonesian + 0.003*helsinki + 0.003*swedish + 0.003*jakarta + 0.002*town
+2016-04-12 16:41:26,609 : INFO : topic diff=0.139248, rho=0.081923
+2016-04-12 16:41:32,334 : INFO : PROGRESS: pass 0, dispatched chunk #158 = documents up to #1590000/3507620, outstanding queue size 4
+2016-04-12 16:41:40,278 : INFO : PROGRESS: pass 0, dispatched chunk #159 = documents up to #1600000/3507620, outstanding queue size 4
+2016-04-12 16:41:48,296 : INFO : PROGRESS: pass 0, dispatched chunk #160 = documents up to #1610000/3507620, outstanding queue size 4
+2016-04-12 16:41:58,902 : INFO : PROGRESS: pass 0, dispatched chunk #161 = documents up to #1620000/3507620, outstanding queue size 4
+2016-04-12 16:42:09,321 : INFO : PROGRESS: pass 0, dispatched chunk #162 = documents up to #1630000/3507620, outstanding queue size 4
+2016-04-12 16:42:19,230 : INFO : PROGRESS: pass 0, dispatched chunk #163 = documents up to #1640000/3507620, outstanding queue size 4
+2016-04-12 16:42:28,928 : INFO : PROGRESS: pass 0, dispatched chunk #164 = documents up to #1650000/3507620, outstanding queue size 4
+2016-04-12 16:42:33,041 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:42:36,992 : INFO : topic #0 (0.010): 0.010*king + 0.006*prince + 0.006*son + 0.006*ret + 0.005*german + 0.005*duke + 0.005*von + 0.004*grand + 0.004*france + 0.004*iii
+2016-04-12 16:42:37,176 : INFO : topic #82 (0.010): 0.007*glass + 0.003*game + 0.003*lego + 0.003*sims + 0.002*games + 0.002*fountain + 0.002*village + 0.001*population + 0.001*often + 0.001*film
+2016-04-12 16:42:37,345 : INFO : topic #6 (0.010): 0.022*px + 0.010*sir + 0.007*william + 0.007*london + 0.006*england + 0.005*australia + 0.005*george + 0.005*lord + 0.005*henry + 0.005*thomas
+2016-04-12 16:42:37,509 : INFO : topic #32 (0.010): 0.024*college + 0.020*students + 0.017*education + 0.015*schools + 0.007*program + 0.006*district + 0.006*student + 0.006*community + 0.005*elementary + 0.005*grade
+2016-04-12 16:42:37,680 : INFO : topic #85 (0.010): 0.008*population + 0.006*census + 0.005*households + 0.005*living + 0.005*town + 0.005*average + 0.004*median + 0.004*size + 0.004*families + 0.004*per
+2016-04-12 16:42:37,869 : INFO : topic diff=0.140363, rho=0.080064
+2016-04-12 16:42:44,649 : INFO : PROGRESS: pass 0, dispatched chunk #165 = documents up to #1660000/3507620, outstanding queue size 4
+2016-04-12 16:42:52,910 : INFO : PROGRESS: pass 0, dispatched chunk #166 = documents up to #1670000/3507620, outstanding queue size 4
+2016-04-12 16:43:04,411 : INFO : PROGRESS: pass 0, dispatched chunk #167 = documents up to #1680000/3507620, outstanding queue size 4
+2016-04-12 16:43:11,834 : INFO : PROGRESS: pass 0, dispatched chunk #168 = documents up to #1690000/3507620, outstanding queue size 4
+2016-04-12 16:43:22,184 : INFO : PROGRESS: pass 0, dispatched chunk #169 = documents up to #1700000/3507620, outstanding queue size 4
+2016-04-12 16:43:33,007 : INFO : PROGRESS: pass 0, dispatched chunk #170 = documents up to #1710000/3507620, outstanding queue size 4
+2016-04-12 16:43:42,670 : INFO : PROGRESS: pass 0, dispatched chunk #171 = documents up to #1720000/3507620, outstanding queue size 4
+2016-04-12 16:43:47,379 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:43:52,155 : INFO : topic #92 (0.010): 0.008*william + 0.006*thomas + 0.006*james + 0.005*london + 0.004*robert + 0.004*george + 0.004*college + 0.003*richard + 0.003*henry + 0.003*peter
+2016-04-12 16:43:52,383 : INFO : topic #48 (0.010): 0.004*man + 0.004*character + 0.004*game + 0.003*story + 0.003*episode + 0.003*characters + 0.002*book + 0.002*comics + 0.002*film + 0.002*father
+2016-04-12 16:43:52,571 : INFO : topic #79 (0.010): 0.025*wales + 0.017*welsh + 0.007*town + 0.006*population + 0.005*average + 0.005*living + 0.005*census + 0.005*households + 0.005*income + 0.004*median
+2016-04-12 16:43:52,752 : INFO : topic #56 (0.010): 0.028*card + 0.026*cards + 0.007*player + 0.006*game + 0.005*mw + 0.004*players + 0.004*hand + 0.003*suit + 0.003*play + 0.003*deck
+2016-04-12 16:43:52,939 : INFO : topic #70 (0.010): 0.010*wrestling + 0.009*championship + 0.008*win + 0.007*match + 0.007*title + 0.004*heavyweight + 0.004*tag + 0.004*champion + 0.004*show + 0.004*fight
+2016-04-12 16:43:53,130 : INFO : topic diff=0.145204, rho=0.078326
+2016-04-12 16:43:59,469 : INFO : PROGRESS: pass 0, dispatched chunk #172 = documents up to #1730000/3507620, outstanding queue size 4
+2016-04-12 16:44:06,784 : INFO : PROGRESS: pass 0, dispatched chunk #173 = documents up to #1740000/3507620, outstanding queue size 4
+2016-04-12 16:44:13,263 : INFO : PROGRESS: pass 0, dispatched chunk #174 = documents up to #1750000/3507620, outstanding queue size 4
+2016-04-12 16:44:24,752 : INFO : PROGRESS: pass 0, dispatched chunk #175 = documents up to #1760000/3507620, outstanding queue size 4
+2016-04-12 16:44:35,441 : INFO : PROGRESS: pass 0, dispatched chunk #176 = documents up to #1770000/3507620, outstanding queue size 4
+2016-04-12 16:44:45,255 : INFO : PROGRESS: pass 0, dispatched chunk #177 = documents up to #1780000/3507620, outstanding queue size 4
+2016-04-12 16:44:55,528 : INFO : PROGRESS: pass 0, dispatched chunk #178 = documents up to #1790000/3507620, outstanding queue size 4
+2016-04-12 16:44:59,482 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:45:03,263 : INFO : topic #12 (0.010): 0.008*bridge + 0.006*mm + 0.005*fire + 0.004*vehicle + 0.004*system + 0.004*class + 0.003*vehicles + 0.003*tank + 0.003*construction + 0.003*service
+2016-04-12 16:45:03,487 : INFO : topic #67 (0.010): 0.021*show + 0.014*tv + 0.013*news + 0.010*television + 0.009*channel + 0.008*station + 0.007*network + 0.007*radio + 0.006*broadcast + 0.006*pm
+2016-04-12 16:45:03,710 : INFO : topic #1 (0.010): 0.009*population + 0.009*census + 0.006*average + 0.005*living + 0.005*income + 0.005*households + 0.004*median + 0.004*families + 0.004*per + 0.004*density
+2016-04-12 16:45:03,936 : INFO : topic #92 (0.010): 0.008*william + 0.006*thomas + 0.006*james + 0.005*london + 0.004*george + 0.004*robert + 0.004*college + 0.003*richard + 0.003*henry + 0.003*peter
+2016-04-12 16:45:04,162 : INFO : topic #50 (0.010): 0.024*album + 0.017*band + 0.012*song + 0.008*chart + 0.008*guitar + 0.008*track + 0.008*vocals + 0.007*records + 0.006*rock + 0.006*live
+2016-04-12 16:45:04,436 : INFO : topic diff=0.151759, rho=0.076696
+2016-04-12 16:45:10,175 : INFO : PROGRESS: pass 0, dispatched chunk #179 = documents up to #1800000/3507620, outstanding queue size 4
+2016-04-12 16:45:18,853 : INFO : PROGRESS: pass 0, dispatched chunk #180 = documents up to #1810000/3507620, outstanding queue size 4
+2016-04-12 16:45:27,848 : INFO : PROGRESS: pass 0, dispatched chunk #181 = documents up to #1820000/3507620, outstanding queue size 4
+2016-04-12 16:45:37,419 : INFO : PROGRESS: pass 0, dispatched chunk #182 = documents up to #1830000/3507620, outstanding queue size 4
+2016-04-12 16:45:47,158 : INFO : PROGRESS: pass 0, dispatched chunk #183 = documents up to #1840000/3507620, outstanding queue size 4
+2016-04-12 16:45:56,503 : INFO : PROGRESS: pass 0, dispatched chunk #184 = documents up to #1850000/3507620, outstanding queue size 4
+2016-04-12 16:46:06,570 : INFO : PROGRESS: pass 0, dispatched chunk #185 = documents up to #1860000/3507620, outstanding queue size 4
+2016-04-12 16:46:10,760 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:46:14,888 : INFO : topic #94 (0.010): 0.029*road + 0.017*route + 0.011*highway + 0.008*street + 0.007*building + 0.006*sr + 0.005*centre + 0.005*us + 0.004*tower + 0.004*hotel
+2016-04-12 16:46:14,907 : INFO : topic #58 (0.010): 0.041*airport + 0.018*polish + 0.015*poland + 0.010*gmina + 0.009*norwegian + 0.008*airlines + 0.007*air + 0.007*norway + 0.007*voivodeship + 0.006*aircraft
+2016-04-12 16:46:14,928 : INFO : topic #54 (0.010): 0.024*al + 0.007*turkish + 0.005*arab + 0.005*islamic + 0.005*muslim + 0.004*turkey + 0.004*ali + 0.004*egypt + 0.003*islam + 0.003*ottoman
+2016-04-12 16:46:14,948 : INFO : topic #98 (0.010): 0.018*la + 0.016*french + 0.012*le + 0.011*paris + 0.008*france + 0.008*du + 0.007*jean + 0.007*store + 0.007*des + 0.007*et
+2016-04-12 16:46:14,967 : INFO : topic #83 (0.010): 0.009*jersey + 0.007*shark + 0.003*river + 0.003*sami + 0.002*sharks + 0.002*town + 0.002*township + 0.002*borough + 0.002*population + 0.002*form
+2016-04-12 16:46:14,990 : INFO : topic diff=0.155806, rho=0.075165
+2016-04-12 16:46:21,452 : INFO : PROGRESS: pass 0, dispatched chunk #186 = documents up to #1870000/3507620, outstanding queue size 4
+2016-04-12 16:46:30,620 : INFO : PROGRESS: pass 0, dispatched chunk #187 = documents up to #1880000/3507620, outstanding queue size 4
+2016-04-12 16:46:40,157 : INFO : PROGRESS: pass 0, dispatched chunk #188 = documents up to #1890000/3507620, outstanding queue size 3
+2016-04-12 16:46:48,356 : INFO : PROGRESS: pass 0, dispatched chunk #189 = documents up to #1900000/3507620, outstanding queue size 4
+2016-04-12 16:46:58,436 : INFO : PROGRESS: pass 0, dispatched chunk #190 = documents up to #1910000/3507620, outstanding queue size 4
+2016-04-12 16:47:09,282 : INFO : PROGRESS: pass 0, dispatched chunk #191 = documents up to #1920000/3507620, outstanding queue size 4
+2016-04-12 16:47:19,277 : INFO : PROGRESS: pass 0, dispatched chunk #192 = documents up to #1930000/3507620, outstanding queue size 4
+2016-04-12 16:47:23,797 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:47:27,893 : INFO : topic #63 (0.010): 0.017*season + 0.014*league + 0.010*game + 0.009*games + 0.008*football + 0.007*player + 0.006*club + 0.005*championship + 0.005*coach + 0.005*cup
+2016-04-12 16:47:28,102 : INFO : topic #25 (0.010): 0.015*water + 0.013*lr + 0.005*milk + 0.005*bicycle + 0.004*cheese + 0.004*bike + 0.003*blade + 0.003*race + 0.003*bmx + 0.002*knife
+2016-04-12 16:47:28,321 : INFO : topic #60 (0.010): 0.011*town + 0.009*population + 0.006*income + 0.006*median + 0.006*living + 0.006*households + 0.005*township + 0.005*census + 0.005*average + 0.005*females
+2016-04-12 16:47:28,549 : INFO : topic #67 (0.010): 0.021*show + 0.014*tv + 0.014*news + 0.011*television + 0.009*channel + 0.008*station + 0.007*network + 0.007*pm + 0.007*radio + 0.006*broadcast
+2016-04-12 16:47:28,776 : INFO : topic #70 (0.010): 0.010*wrestling + 0.009*championship + 0.009*win + 0.008*match + 0.007*title + 0.005*champion + 0.005*heavyweight + 0.004*tag + 0.004*fight + 0.004*defeated
+2016-04-12 16:47:29,005 : INFO : topic diff=0.162143, rho=0.073721
+2016-04-12 16:47:34,987 : INFO : PROGRESS: pass 0, dispatched chunk #193 = documents up to #1940000/3507620, outstanding queue size 4
+2016-04-12 16:47:42,516 : INFO : PROGRESS: pass 0, dispatched chunk #194 = documents up to #1950000/3507620, outstanding queue size 4
+2016-04-12 16:47:50,823 : INFO : PROGRESS: pass 0, dispatched chunk #195 = documents up to #1960000/3507620, outstanding queue size 4
+2016-04-12 16:48:00,902 : INFO : PROGRESS: pass 0, dispatched chunk #196 = documents up to #1970000/3507620, outstanding queue size 4
+2016-04-12 16:48:11,944 : INFO : PROGRESS: pass 0, dispatched chunk #197 = documents up to #1980000/3507620, outstanding queue size 4
+2016-04-12 16:48:21,928 : INFO : PROGRESS: pass 0, dispatched chunk #198 = documents up to #1990000/3507620, outstanding queue size 4
+2016-04-12 16:48:31,694 : INFO : PROGRESS: pass 0, dispatched chunk #199 = documents up to #2000000/3507620, outstanding queue size 4
+2016-04-12 16:48:36,275 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:48:40,547 : INFO : topic #93 (0.010): 0.006*climbing + 0.004*darwin + 0.004*canal + 0.004*summit + 0.003*ascent + 0.003*climb + 0.003*airport + 0.003*everest + 0.002*route + 0.002*hop
+2016-04-12 16:48:40,786 : INFO : topic #75 (0.010): 0.013*students + 0.012*college + 0.009*building + 0.008*library + 0.007*campus + 0.007*student + 0.006*hall + 0.006*center + 0.006*girls + 0.006*boys
+2016-04-12 16:48:41,024 : INFO : topic #47 (0.010): 0.029*hospital + 0.029*medical + 0.028*health + 0.014*care + 0.011*medicine + 0.006*patients + 0.006*services + 0.006*center + 0.006*children + 0.005*dr
+2016-04-12 16:48:41,264 : INFO : topic #39 (0.010): 0.010*ap + 0.007*auburn + 0.005*hopkins + 0.005*atlas + 0.004*johns + 0.004*crane + 0.003*mindanao + 0.003*luna + 0.002*davao + 0.002*town
+2016-04-12 16:48:41,527 : INFO : topic #55 (0.010): 0.040*yes + 0.013*kenya + 0.007*uganda + 0.007*flag + 0.006*population + 0.005*town + 0.005*census + 0.004*african + 0.004*living + 0.004*nairobi
+2016-04-12 16:48:41,768 : INFO : topic diff=0.165981, rho=0.072357
+2016-04-12 16:48:47,778 : INFO : PROGRESS: pass 0, dispatched chunk #200 = documents up to #2010000/3507620, outstanding queue size 4
+2016-04-12 16:48:59,529 : INFO : PROGRESS: pass 0, dispatched chunk #201 = documents up to #2020000/3507620, outstanding queue size 3
+2016-04-12 16:49:05,179 : INFO : PROGRESS: pass 0, dispatched chunk #202 = documents up to #2030000/3507620, outstanding queue size 3
+2016-04-12 16:49:14,544 : INFO : PROGRESS: pass 0, dispatched chunk #203 = documents up to #2040000/3507620, outstanding queue size 4
+2016-04-12 16:49:24,325 : INFO : PROGRESS: pass 0, dispatched chunk #204 = documents up to #2050000/3507620, outstanding queue size 4
+2016-04-12 16:49:35,443 : INFO : PROGRESS: pass 0, dispatched chunk #205 = documents up to #2060000/3507620, outstanding queue size 4
+2016-04-12 16:49:45,628 : INFO : PROGRESS: pass 0, dispatched chunk #206 = documents up to #2070000/3507620, outstanding queue size 4
+2016-04-12 16:49:49,738 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:49:53,254 : INFO : topic #9 (0.010): 0.006*hughes + 0.003*tolkien + 0.003*elves + 0.002*rings + 0.002*king + 0.002*system + 0.002*earth + 0.001*middle + 0.001*river + 0.001*lord
+2016-04-12 16:49:53,480 : INFO : topic #28 (0.010): 0.011*law + 0.010*act + 0.007*court + 0.005*rights + 0.004*legal + 0.004*case + 0.003*federal + 0.003*information + 0.003*amendment + 0.002*regulations
+2016-04-12 16:49:53,711 : INFO : topic #47 (0.010): 0.029*hospital + 0.029*medical + 0.029*health + 0.014*care + 0.012*medicine + 0.006*patients + 0.006*services + 0.006*center + 0.006*children + 0.005*dr
+2016-04-12 16:49:53,943 : INFO : topic #0 (0.010): 0.010*king + 0.007*ret + 0.006*prince + 0.006*son + 0.006*german + 0.005*von + 0.005*duke + 0.005*grand + 0.004*der + 0.004*france
+2016-04-12 16:49:54,166 : INFO : topic #4 (0.010): 0.031*art + 0.023*museum + 0.009*gallery + 0.007*arts + 0.007*painting + 0.006*artist + 0.006*van + 0.006*works + 0.006*artists + 0.006*collection
+2016-04-12 16:49:54,395 : INFO : topic diff=0.169879, rho=0.071067
+2016-04-12 16:50:00,762 : INFO : PROGRESS: pass 0, dispatched chunk #207 = documents up to #2080000/3507620, outstanding queue size 4
+2016-04-12 16:50:09,061 : INFO : PROGRESS: pass 0, dispatched chunk #208 = documents up to #2090000/3507620, outstanding queue size 4
+2016-04-12 16:50:16,902 : INFO : PROGRESS: pass 0, dispatched chunk #209 = documents up to #2100000/3507620, outstanding queue size 4
+2016-04-12 16:50:27,044 : INFO : PROGRESS: pass 0, dispatched chunk #210 = documents up to #2110000/3507620, outstanding queue size 4
+2016-04-12 16:50:38,366 : INFO : PROGRESS: pass 0, dispatched chunk #211 = documents up to #2120000/3507620, outstanding queue size 4
+2016-04-12 16:50:49,086 : INFO : PROGRESS: pass 0, dispatched chunk #212 = documents up to #2130000/3507620, outstanding queue size 4
+2016-04-12 16:50:58,809 : INFO : PROGRESS: pass 0, dispatched chunk #213 = documents up to #2140000/3507620, outstanding queue size 4
+2016-04-12 16:51:03,285 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:51:07,469 : INFO : topic #60 (0.010): 0.011*town + 0.009*population + 0.006*income + 0.006*asian + 0.006*living + 0.006*median + 0.006*households + 0.005*families + 0.005*taiwan + 0.005*census
+2016-04-12 16:51:07,547 : INFO : topic #71 (0.010): 0.040*saint + 0.016*france + 0.015*commune + 0.014*department + 0.011*la + 0.009*sur + 0.008*population + 0.008*communes + 0.008*le + 0.008*french
+2016-04-12 16:51:07,627 : INFO : topic #82 (0.010): 0.014*glass + 0.004*sims + 0.004*fountain + 0.003*game + 0.003*lego + 0.002*games + 0.002*village + 0.001*attic + 0.001*population + 0.001*often
+2016-04-12 16:51:07,707 : INFO : topic #97 (0.010): 0.018*london + 0.011*parish + 0.011*england + 0.009*town + 0.007*council + 0.006*birmingham + 0.005*borough + 0.004*yorkshire + 0.004*uk + 0.004*district
+2016-04-12 16:51:07,809 : INFO : topic #15 (0.010): 0.036*church + 0.012*bishop + 0.012*catholic + 0.009*diocese + 0.006*christian + 0.005*christ + 0.005*roman + 0.004*churches + 0.004*language + 0.004*holy
+2016-04-12 16:51:07,935 : INFO : topic diff=0.177906, rho=0.069843
+2016-04-12 16:51:14,030 : INFO : PROGRESS: pass 0, dispatched chunk #214 = documents up to #2150000/3507620, outstanding queue size 4
+2016-04-12 16:51:23,303 : INFO : PROGRESS: pass 0, dispatched chunk #215 = documents up to #2160000/3507620, outstanding queue size 4
+2016-04-12 16:51:32,098 : INFO : PROGRESS: pass 0, dispatched chunk #216 = documents up to #2170000/3507620, outstanding queue size 4
+2016-04-12 16:51:40,610 : INFO : PROGRESS: pass 0, dispatched chunk #217 = documents up to #2180000/3507620, outstanding queue size 4
+2016-04-12 16:51:51,456 : INFO : PROGRESS: pass 0, dispatched chunk #218 = documents up to #2190000/3507620, outstanding queue size 4
+2016-04-12 16:52:01,935 : INFO : PROGRESS: pass 0, dispatched chunk #219 = documents up to #2200000/3507620, outstanding queue size 4
+2016-04-12 16:52:11,804 : INFO : PROGRESS: pass 0, dispatched chunk #220 = documents up to #2210000/3507620, outstanding queue size 4
+2016-04-12 16:52:16,394 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:52:20,300 : INFO : topic #43 (0.010): 0.038*space + 0.010*sts + 0.009*mission + 0.009*nasa + 0.007*launch + 0.005*shuttle + 0.005*apollo + 0.004*soyuz + 0.004*spacecraft + 0.004*flight
+2016-04-12 16:52:20,542 : INFO : topic #10 (0.010): 0.022*species + 0.011*birds + 0.010*white + 0.010*black + 0.007*bird + 0.006*red + 0.005*fish + 0.004*habitat + 0.004*animals + 0.004*male
+2016-04-12 16:52:20,781 : INFO : topic #94 (0.010): 0.031*road + 0.018*route + 0.012*highway + 0.009*street + 0.008*building + 0.006*sr + 0.006*centre + 0.005*tower + 0.005*us + 0.005*hotel
+2016-04-12 16:52:21,054 : INFO : topic #73 (0.010): 0.052*castle + 0.006*oz + 0.004*castles + 0.003*bailey + 0.002*town + 0.002*population + 0.002*baum + 0.002*king + 0.002*art + 0.001*building
+2016-04-12 16:52:21,306 : INFO : topic #55 (0.010): 0.046*yes + 0.016*kenya + 0.011*flag + 0.009*uganda + 0.005*population + 0.005*town + 0.005*african + 0.004*census + 0.004*nairobi + 0.004*kenyan
+2016-04-12 16:52:21,545 : INFO : topic diff=0.179180, rho=0.068680
+2016-04-12 16:52:27,061 : INFO : PROGRESS: pass 0, dispatched chunk #221 = documents up to #2220000/3507620, outstanding queue size 4
+2016-04-12 16:52:35,009 : INFO : PROGRESS: pass 0, dispatched chunk #222 = documents up to #2230000/3507620, outstanding queue size 4
+2016-04-12 16:52:42,724 : INFO : PROGRESS: pass 0, dispatched chunk #223 = documents up to #2240000/3507620, outstanding queue size 4
+2016-04-12 16:52:51,609 : INFO : PROGRESS: pass 0, dispatched chunk #224 = documents up to #2250000/3507620, outstanding queue size 4
+2016-04-12 16:53:00,304 : INFO : PROGRESS: pass 0, dispatched chunk #225 = documents up to #2260000/3507620, outstanding queue size 4
+2016-04-12 16:53:09,270 : INFO : PROGRESS: pass 0, dispatched chunk #226 = documents up to #2270000/3507620, outstanding queue size 4
+2016-04-12 16:53:19,691 : INFO : PROGRESS: pass 0, dispatched chunk #227 = documents up to #2280000/3507620, outstanding queue size 4
+2016-04-12 16:53:23,739 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:53:27,819 : INFO : topic #24 (0.010): 0.020*tree + 0.008*oak + 0.005*namibia + 0.005*trees + 0.003*aurora + 0.003*rope + 0.002*town + 0.002*christmas + 0.002*population + 0.002*mast
+2016-04-12 16:53:28,062 : INFO : topic #88 (0.010): 0.025*ball + 0.005*game + 0.004*balls + 0.003*players + 0.003*play + 0.003*player + 0.003*homer + 0.002*hit + 0.002*often + 0.002*robinson
+2016-04-12 16:53:28,303 : INFO : topic #8 (0.010): 0.008*population + 0.005*town + 0.005*census + 0.005*median + 0.005*income + 0.005*households + 0.004*per + 0.004*living + 0.004*average + 0.004*families
+2016-04-12 16:53:28,527 : INFO : topic #99 (0.010): 0.055*township + 0.054*population + 0.041*village + 0.028*census + 0.023*district + 0.012*town + 0.012*average + 0.010*total + 0.008*per + 0.007*geography
+2016-04-12 16:53:28,753 : INFO : topic #90 (0.010): 0.008*god + 0.008*jewish + 0.006*israel + 0.004*you + 0.004*rabbi + 0.003*said + 0.003*jews + 0.003*jesus + 0.003*jerusalem + 0.003*hebrew
+2016-04-12 16:53:29,008 : INFO : topic diff=0.182072, rho=0.067574
+2016-04-12 16:53:34,017 : INFO : PROGRESS: pass 0, dispatched chunk #228 = documents up to #2290000/3507620, outstanding queue size 4
+2016-04-12 16:53:42,139 : INFO : PROGRESS: pass 0, dispatched chunk #229 = documents up to #2300000/3507620, outstanding queue size 4
+2016-04-12 16:53:50,637 : INFO : PROGRESS: pass 0, dispatched chunk #230 = documents up to #2310000/3507620, outstanding queue size 4
+2016-04-12 16:53:59,685 : INFO : PROGRESS: pass 0, dispatched chunk #231 = documents up to #2320000/3507620, outstanding queue size 4
+2016-04-12 16:54:09,254 : INFO : PROGRESS: pass 0, dispatched chunk #232 = documents up to #2330000/3507620, outstanding queue size 4
+2016-04-12 16:54:20,330 : INFO : PROGRESS: pass 0, dispatched chunk #233 = documents up to #2340000/3507620, outstanding queue size 4
+2016-04-12 16:54:30,089 : INFO : PROGRESS: pass 0, dispatched chunk #234 = documents up to #2350000/3507620, outstanding queue size 4
+2016-04-12 16:54:34,948 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:54:38,936 : INFO : topic #72 (0.010): 0.016*car + 0.015*racing + 0.009*race + 0.009*engine + 0.008*ford + 0.007*cars + 0.006*cc + 0.006*gt + 0.006*model + 0.005*driver
+2016-04-12 16:54:39,155 : INFO : topic #49 (0.010): 0.005*population + 0.005*township + 0.004*median + 0.003*average + 0.003*income + 0.003*census + 0.003*families + 0.003*living + 0.003*females + 0.003*per
+2016-04-12 16:54:39,412 : INFO : topic #16 (0.010): 0.022*species + 0.010*genus + 0.005*plant + 0.005*plants + 0.004*el + 0.003*common + 0.003*la + 0.003*leaves + 0.003*red + 0.003*puerto
+2016-04-12 16:54:39,618 : INFO : topic #73 (0.010): 0.057*castle + 0.007*oz + 0.005*castles + 0.004*bailey + 0.002*town + 0.002*baum + 0.002*king + 0.002*population + 0.002*art + 0.001*building
+2016-04-12 16:54:39,821 : INFO : topic #35 (0.010): 0.017*ship + 0.016*navy + 0.010*ships + 0.009*naval + 0.007*class + 0.007*fleet + 0.006*service + 0.005*sea + 0.005*uss + 0.005*boat
+2016-04-12 16:54:40,028 : INFO : topic diff=0.185954, rho=0.066519
+2016-04-12 16:54:48,227 : INFO : PROGRESS: pass 0, dispatched chunk #235 = documents up to #2360000/3507620, outstanding queue size 4
+2016-04-12 16:54:53,863 : INFO : PROGRESS: pass 0, dispatched chunk #236 = documents up to #2370000/3507620, outstanding queue size 4
+2016-04-12 16:55:01,946 : INFO : PROGRESS: pass 0, dispatched chunk #237 = documents up to #2380000/3507620, outstanding queue size 4
+2016-04-12 16:55:11,729 : INFO : PROGRESS: pass 0, dispatched chunk #238 = documents up to #2390000/3507620, outstanding queue size 4
+2016-04-12 16:55:22,056 : INFO : PROGRESS: pass 0, dispatched chunk #239 = documents up to #2400000/3507620, outstanding queue size 4
+2016-04-12 16:55:31,808 : INFO : PROGRESS: pass 0, dispatched chunk #240 = documents up to #2410000/3507620, outstanding queue size 4
+2016-04-12 16:55:41,245 : INFO : PROGRESS: pass 0, dispatched chunk #241 = documents up to #2420000/3507620, outstanding queue size 4
+2016-04-12 16:55:45,564 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:55:50,057 : INFO : topic #93 (0.010): 0.008*canal + 0.008*summit + 0.007*climbing + 0.007*darwin + 0.005*climb + 0.004*ascent + 0.003*everest + 0.003*route + 0.003*mountain + 0.003*tanzania
+2016-04-12 16:55:50,286 : INFO : topic #36 (0.010): 0.008*population + 0.007*living + 0.006*average + 0.006*census + 0.006*older + 0.006*income + 0.005*families + 0.005*median + 0.005*village + 0.004*density
+2016-04-12 16:55:50,522 : INFO : topic #19 (0.010): 0.016*china + 0.015*chinese + 0.005*li + 0.005*emperor + 0.005*korea + 0.005*dynasty + 0.004*korean + 0.004*temple + 0.004*province + 0.003*wang
+2016-04-12 16:55:50,818 : INFO : topic #43 (0.010): 0.039*space + 0.010*mission + 0.010*sts + 0.009*launch + 0.009*nasa + 0.007*soyuz + 0.005*satellite + 0.005*apollo + 0.005*shuttle + 0.005*spacecraft
+2016-04-12 16:55:51,085 : INFO : topic #28 (0.010): 0.012*law + 0.010*act + 0.009*court + 0.006*rights + 0.005*legal + 0.005*case + 0.003*federal + 0.003*justice + 0.003*information + 0.003*cases
+2016-04-12 16:55:51,328 : INFO : topic diff=0.195443, rho=0.065512
+2016-04-12 16:55:56,256 : INFO : PROGRESS: pass 0, dispatched chunk #242 = documents up to #2430000/3507620, outstanding queue size 4
+2016-04-12 16:56:05,165 : INFO : PROGRESS: pass 0, dispatched chunk #243 = documents up to #2440000/3507620, outstanding queue size 4
+2016-04-12 16:56:12,846 : INFO : PROGRESS: pass 0, dispatched chunk #244 = documents up to #2450000/3507620, outstanding queue size 4
+2016-04-12 16:56:25,462 : INFO : PROGRESS: pass 0, dispatched chunk #245 = documents up to #2460000/3507620, outstanding queue size 4
+2016-04-12 16:56:31,724 : INFO : PROGRESS: pass 0, dispatched chunk #246 = documents up to #2470000/3507620, outstanding queue size 4
+2016-04-12 16:56:42,143 : INFO : PROGRESS: pass 0, dispatched chunk #247 = documents up to #2480000/3507620, outstanding queue size 4
+2016-04-12 16:56:53,319 : INFO : PROGRESS: pass 0, dispatched chunk #248 = documents up to #2490000/3507620, outstanding queue size 4
+2016-04-12 16:56:57,939 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:57:01,579 : INFO : topic #63 (0.010): 0.018*season + 0.014*league + 0.011*game + 0.009*football + 0.009*games + 0.007*player + 0.005*club + 0.005*championship + 0.005*coach + 0.005*record
+2016-04-12 16:57:01,779 : INFO : topic #79 (0.010): 0.052*wales + 0.031*welsh + 0.014*cardiff + 0.009*rfc + 0.007*swansea + 0.007*town + 0.007*rugby + 0.006*newport + 0.004*population + 0.004*union
+2016-04-12 16:57:01,980 : INFO : topic #64 (0.010): 0.030*category + 0.018*graph + 0.008*edge + 0.007*vertex + 0.007*vertices + 0.006*regular + 0.006*graphs + 0.006*edges + 0.005*px + 0.005*triangle
+2016-04-12 16:57:02,213 : INFO : topic #42 (0.010): 0.018*greek + 0.008*letter + 0.007*stamps + 0.007*serbian + 0.007*latin + 0.006*code + 0.006*letters + 0.006*greece + 0.005*stamp + 0.005*postal
+2016-04-12 16:57:02,465 : INFO : topic #71 (0.010): 0.046*saint + 0.020*france + 0.015*commune + 0.013*department + 0.011*la + 0.009*french + 0.009*sur + 0.009*le + 0.008*scotland + 0.007*communes
+2016-04-12 16:57:02,724 : INFO : topic diff=0.197663, rho=0.064550
+2016-04-12 16:57:08,181 : INFO : PROGRESS: pass 0, dispatched chunk #249 = documents up to #2500000/3507620, outstanding queue size 4
+2016-04-12 16:57:16,727 : INFO : PROGRESS: pass 0, dispatched chunk #250 = documents up to #2510000/3507620, outstanding queue size 4
+2016-04-12 16:57:24,619 : INFO : PROGRESS: pass 0, dispatched chunk #251 = documents up to #2520000/3507620, outstanding queue size 4
+2016-04-12 16:57:34,262 : INFO : PROGRESS: pass 0, dispatched chunk #252 = documents up to #2530000/3507620, outstanding queue size 4
+2016-04-12 16:57:44,943 : INFO : PROGRESS: pass 0, dispatched chunk #253 = documents up to #2540000/3507620, outstanding queue size 4
+2016-04-12 16:57:58,426 : INFO : PROGRESS: pass 0, dispatched chunk #254 = documents up to #2550000/3507620, outstanding queue size 4
+2016-04-12 16:58:04,654 : INFO : PROGRESS: pass 0, dispatched chunk #255 = documents up to #2560000/3507620, outstanding queue size 4
+2016-04-12 16:58:09,462 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:58:13,768 : INFO : topic #49 (0.010): 0.005*population + 0.005*township + 0.004*median + 0.003*average + 0.003*income + 0.003*igbo + 0.003*families + 0.003*census + 0.003*living + 0.003*kearney
+2016-04-12 16:58:13,895 : INFO : topic #72 (0.010): 0.017*racing + 0.017*car + 0.011*race + 0.009*engine + 0.009*ford + 0.007*cars + 0.006*gt + 0.006*cc + 0.006*driver + 0.005*model
+2016-04-12 16:58:14,047 : INFO : topic #18 (0.010): 0.005*example + 0.005*theory + 0.005*model + 0.004*function + 0.004*system + 0.004*we + 0.004*value + 0.004*given + 0.003*data + 0.003*using
+2016-04-12 16:58:14,185 : INFO : topic #44 (0.010): 0.040*mi + 0.039*none + 0.019*alt + 0.012*sq + 0.008*population + 0.007*living + 0.005*median + 0.005*census + 0.005*families + 0.005*average
+2016-04-12 16:58:14,326 : INFO : topic #77 (0.010): 0.010*food + 0.009*wine + 0.005*rice + 0.004*meat + 0.004*sugar + 0.003*tea + 0.003*oil + 0.003*coffee + 0.003*products + 0.003*often
+2016-04-12 16:58:14,465 : INFO : topic diff=0.203437, rho=0.063628
+2016-04-12 16:58:19,990 : INFO : PROGRESS: pass 0, dispatched chunk #256 = documents up to #2570000/3507620, outstanding queue size 4
+2016-04-12 16:58:27,346 : INFO : PROGRESS: pass 0, dispatched chunk #257 = documents up to #2580000/3507620, outstanding queue size 4
+2016-04-12 16:58:34,643 : INFO : PROGRESS: pass 0, dispatched chunk #258 = documents up to #2590000/3507620, outstanding queue size 4
+2016-04-12 16:58:44,171 : INFO : PROGRESS: pass 0, dispatched chunk #259 = documents up to #2600000/3507620, outstanding queue size 4
+2016-04-12 16:58:54,556 : INFO : PROGRESS: pass 0, dispatched chunk #260 = documents up to #2610000/3507620, outstanding queue size 4
+2016-04-12 16:59:04,104 : INFO : PROGRESS: pass 0, dispatched chunk #261 = documents up to #2620000/3507620, outstanding queue size 4
+2016-04-12 16:59:13,386 : INFO : PROGRESS: pass 0, dispatched chunk #262 = documents up to #2630000/3507620, outstanding queue size 4
+2016-04-12 16:59:17,634 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 16:59:21,719 : INFO : topic #83 (0.010): 0.035*jersey + 0.009*shark + 0.004*sami + 0.004*bedford + 0.003*bergen + 0.003*river + 0.003*distillery + 0.003*sharks + 0.003*whisky + 0.002*township
+2016-04-12 16:59:21,925 : INFO : topic #59 (0.010): 0.045*station + 0.030*railway + 0.011*service + 0.010*train + 0.010*bus + 0.009*street + 0.009*rail + 0.008*trains + 0.007*route + 0.007*services
+2016-04-12 16:59:22,124 : INFO : topic #18 (0.010): 0.005*example + 0.005*theory + 0.005*model + 0.004*function + 0.004*system + 0.004*we + 0.004*value + 0.004*given + 0.003*using + 0.003*analysis
+2016-04-12 16:59:22,318 : INFO : topic #50 (0.010): 0.025*album + 0.016*band + 0.013*song + 0.010*chart + 0.009*track + 0.008*guitar + 0.008*vocals + 0.007*records + 0.006*rock + 0.006*you
+2016-04-12 16:59:22,592 : INFO : topic #23 (0.010): 0.046*air + 0.021*force + 0.020*squadron + 0.009*wing + 0.009*base + 0.009*aircraft + 0.008*training + 0.008*fighter + 0.008*command + 0.007*vietnam
+2016-04-12 16:59:22,796 : INFO : topic diff=0.207505, rho=0.062746
+2016-04-12 16:59:29,114 : INFO : PROGRESS: pass 0, dispatched chunk #263 = documents up to #2640000/3507620, outstanding queue size 4
+2016-04-12 16:59:36,501 : INFO : PROGRESS: pass 0, dispatched chunk #264 = documents up to #2650000/3507620, outstanding queue size 3
+2016-04-12 16:59:44,299 : INFO : PROGRESS: pass 0, dispatched chunk #265 = documents up to #2660000/3507620, outstanding queue size 3
+2016-04-12 16:59:52,528 : INFO : PROGRESS: pass 0, dispatched chunk #266 = documents up to #2670000/3507620, outstanding queue size 4
+2016-04-12 17:00:02,655 : INFO : PROGRESS: pass 0, dispatched chunk #267 = documents up to #2680000/3507620, outstanding queue size 4
+2016-04-12 17:00:14,017 : INFO : PROGRESS: pass 0, dispatched chunk #268 = documents up to #2690000/3507620, outstanding queue size 4
+2016-04-12 17:00:23,646 : INFO : PROGRESS: pass 0, dispatched chunk #269 = documents up to #2700000/3507620, outstanding queue size 4
+2016-04-12 17:00:27,896 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 17:00:31,885 : INFO : topic #64 (0.010): 0.033*category + 0.019*graph + 0.009*edge + 0.008*vertices + 0.007*vertex + 0.007*regular + 0.007*edges + 0.006*graphs + 0.006*triangle + 0.006*px
+2016-04-12 17:00:32,098 : INFO : topic #43 (0.010): 0.041*space + 0.011*mission + 0.011*launch + 0.010*nasa + 0.009*sts + 0.009*kosmos + 0.008*orbit + 0.007*satellite + 0.007*soyuz + 0.006*rocket
+2016-04-12 17:00:32,307 : INFO : topic #69 (0.010): 0.014*church + 0.012*village + 0.012*town + 0.008*building + 0.007*municipality + 0.006*district + 0.005*jpg + 0.005*population + 0.004*la + 0.004*region
+2016-04-12 17:00:32,530 : INFO : topic #51 (0.010): 0.008*social + 0.006*self + 0.004*psychology + 0.003*theory + 0.003*behavior + 0.003*how + 0.003*person + 0.003*psychological + 0.002*experience + 0.002*individual
+2016-04-12 17:00:32,745 : INFO : topic #74 (0.010): 0.021*game + 0.013*aircraft + 0.007*games + 0.007*air + 0.007*player + 0.006*flight + 0.005*engine + 0.004*version + 0.003*system + 0.003*design
+2016-04-12 17:00:32,955 : INFO : topic diff=0.211019, rho=0.061898
+2016-04-12 17:00:38,405 : INFO : PROGRESS: pass 0, dispatched chunk #270 = documents up to #2710000/3507620, outstanding queue size 4
+2016-04-12 17:00:45,894 : INFO : PROGRESS: pass 0, dispatched chunk #271 = documents up to #2720000/3507620, outstanding queue size 4
+2016-04-12 17:00:54,708 : INFO : PROGRESS: pass 0, dispatched chunk #272 = documents up to #2730000/3507620, outstanding queue size 4
+2016-04-12 17:01:03,570 : INFO : PROGRESS: pass 0, dispatched chunk #273 = documents up to #2740000/3507620, outstanding queue size 4
+2016-04-12 17:01:13,060 : INFO : PROGRESS: pass 0, dispatched chunk #274 = documents up to #2750000/3507620, outstanding queue size 4
+2016-04-12 17:01:22,537 : INFO : PROGRESS: pass 0, dispatched chunk #275 = documents up to #2760000/3507620, outstanding queue size 4
+2016-04-12 17:01:31,387 : INFO : PROGRESS: pass 0, dispatched chunk #276 = documents up to #2770000/3507620, outstanding queue size 4
+2016-04-12 17:01:35,528 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 17:01:39,139 : INFO : topic #27 (0.010): 0.019*mine + 0.013*mining + 0.009*ms + 0.009*min + 0.008*copper + 0.007*sb + 0.007*partial + 0.007*gold + 0.007*annular + 0.007*mines
+2016-04-12 17:01:39,407 : INFO : topic #78 (0.010): 0.014*minor + 0.009*op + 0.007*piano + 0.006*scale + 0.006*tone + 0.005*movement + 0.005*musical + 0.004*flat + 0.004*key + 0.004*sonata
+2016-04-12 17:01:39,651 : INFO : topic #57 (0.010): 0.040*bar + 0.035*text + 0.029*japan + 0.025*align + 0.023*till + 0.021*japanese + 0.011*color + 0.010*tokyo + 0.010*fontsize + 0.009*shift
+2016-04-12 17:01:39,894 : INFO : topic #40 (0.010): 0.047*africa + 0.041*african + 0.016*cape + 0.016*nigeria + 0.008*nigerian + 0.007*town + 0.006*belgian + 0.006*belgium + 0.005*black + 0.005*brussels
+2016-04-12 17:01:40,155 : INFO : topic #34 (0.010): 0.032*est + 0.012*population + 0.005*township + 0.004*haplogroup + 0.004*ancestry + 0.004*census + 0.004*per + 0.003*males + 0.003*median + 0.003*families
+2016-04-12 17:01:40,400 : INFO : topic diff=0.215593, rho=0.061085
+2016-04-12 17:01:44,700 : INFO : PROGRESS: pass 0, dispatched chunk #277 = documents up to #2780000/3507620, outstanding queue size 4
+2016-04-12 17:01:51,324 : INFO : PROGRESS: pass 0, dispatched chunk #278 = documents up to #2790000/3507620, outstanding queue size 4
+2016-04-12 17:01:59,256 : INFO : PROGRESS: pass 0, dispatched chunk #279 = documents up to #2800000/3507620, outstanding queue size 4
+2016-04-12 17:02:08,291 : INFO : PROGRESS: pass 0, dispatched chunk #280 = documents up to #2810000/3507620, outstanding queue size 4
+2016-04-12 17:02:17,397 : INFO : PROGRESS: pass 0, dispatched chunk #281 = documents up to #2820000/3507620, outstanding queue size 4
+2016-04-12 17:02:27,589 : INFO : PROGRESS: pass 0, dispatched chunk #282 = documents up to #2830000/3507620, outstanding queue size 4
+2016-04-12 17:02:35,620 : INFO : PROGRESS: pass 0, dispatched chunk #283 = documents up to #2840000/3507620, outstanding queue size 4
+2016-04-12 17:02:40,475 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 17:02:44,369 : INFO : topic #97 (0.010): 0.020*london + 0.016*england + 0.012*town + 0.010*parish + 0.006*birmingham + 0.006*council + 0.006*uk + 0.006*borough + 0.005*yorkshire + 0.004*centre
+2016-04-12 17:02:44,514 : INFO : topic #45 (0.010): 0.042*gay + 0.012*lesbian + 0.012*sex + 0.011*lgbt + 0.008*pride + 0.006*sexual + 0.005*parade + 0.005*homosexuality + 0.004*wheeler + 0.004*couples
+2016-04-12 17:02:44,670 : INFO : topic #27 (0.010): 0.023*mine + 0.013*mining + 0.009*ms + 0.009*min + 0.009*copper + 0.007*sb + 0.007*mines + 0.007*gold + 0.007*ore + 0.006*pr
+2016-04-12 17:02:44,808 : INFO : topic #56 (0.010): 0.032*card + 0.023*cards + 0.020*player + 0.018*game + 0.014*players + 0.008*mw + 0.007*play + 0.007*points + 0.006*hand + 0.005*visa
+2016-04-12 17:02:44,942 : INFO : topic #49 (0.010): 0.005*population + 0.005*township + 0.004*igbo + 0.004*amber + 0.004*median + 0.003*kearney + 0.003*average + 0.003*income + 0.003*families + 0.003*census
+2016-04-12 17:02:45,085 : INFO : topic diff=0.216943, rho=0.060302
+2016-04-12 17:02:51,118 : INFO : PROGRESS: pass 0, dispatched chunk #284 = documents up to #2850000/3507620, outstanding queue size 4
+2016-04-12 17:03:01,086 : INFO : PROGRESS: pass 0, dispatched chunk #285 = documents up to #2860000/3507620, outstanding queue size 4
+2016-04-12 17:03:10,285 : INFO : PROGRESS: pass 0, dispatched chunk #286 = documents up to #2870000/3507620, outstanding queue size 4
+2016-04-12 17:03:18,447 : INFO : PROGRESS: pass 0, dispatched chunk #287 = documents up to #2880000/3507620, outstanding queue size 4
+2016-04-12 17:03:34,063 : INFO : PROGRESS: pass 0, dispatched chunk #288 = documents up to #2890000/3507620, outstanding queue size 4
+2016-04-12 17:03:39,691 : INFO : PROGRESS: pass 0, dispatched chunk #289 = documents up to #2900000/3507620, outstanding queue size 5
+2016-04-12 17:03:50,577 : INFO : PROGRESS: pass 0, dispatched chunk #290 = documents up to #2910000/3507620, outstanding queue size 4
+2016-04-12 17:03:55,293 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 17:03:59,366 : INFO : topic #5 (0.010): 0.013*brazil + 0.012*portuguese + 0.011*da + 0.010*brazilian + 0.008*do + 0.008*politician + 0.007*rio + 0.006*portugal + 0.006*player + 0.006*paulo
+2016-04-12 17:03:59,543 : INFO : topic #72 (0.010): 0.018*racing + 0.017*car + 0.013*race + 0.009*ford + 0.008*engine + 0.007*cars + 0.006*driver + 0.006*gt + 0.006*cc + 0.005*model
+2016-04-12 17:03:59,715 : INFO : topic #16 (0.010): 0.025*species + 0.010*genus + 0.006*plant + 0.005*plants + 0.004*mm + 0.004*leaves + 0.004*common + 0.003*description + 0.003*flowers + 0.003*el
+2016-04-12 17:03:59,891 : INFO : topic #65 (0.010): 0.020*book + 0.016*published + 0.012*books + 0.011*isbn + 0.008*press + 0.008*poetry + 0.006*author + 0.006*works + 0.006*magazine + 0.006*literature
+2016-04-12 17:04:00,068 : INFO : topic #62 (0.010): 0.013*san + 0.008*california + 0.007*los + 0.006*francisco + 0.005*miss + 0.005*el + 0.005*la + 0.004*juan + 0.004*award + 0.004*angeles
+2016-04-12 17:04:00,246 : INFO : topic diff=0.229646, rho=0.059549
+2016-04-12 17:04:06,304 : INFO : PROGRESS: pass 0, dispatched chunk #291 = documents up to #2920000/3507620, outstanding queue size 4
+2016-04-12 17:04:14,888 : INFO : PROGRESS: pass 0, dispatched chunk #292 = documents up to #2930000/3507620, outstanding queue size 4
+2016-04-12 17:04:23,861 : INFO : PROGRESS: pass 0, dispatched chunk #293 = documents up to #2940000/3507620, outstanding queue size 4
+2016-04-12 17:04:33,136 : INFO : PROGRESS: pass 0, dispatched chunk #294 = documents up to #2950000/3507620, outstanding queue size 3
+2016-04-12 17:04:42,885 : INFO : PROGRESS: pass 0, dispatched chunk #295 = documents up to #2960000/3507620, outstanding queue size 4
+2016-04-12 17:04:50,873 : INFO : PROGRESS: pass 0, dispatched chunk #296 = documents up to #2970000/3507620, outstanding queue size 4
+2016-04-12 17:05:00,635 : INFO : PROGRESS: pass 0, dispatched chunk #297 = documents up to #2980000/3507620, outstanding queue size 4
+2016-04-12 17:05:05,051 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 17:05:09,475 : INFO : topic #18 (0.010): 0.005*example + 0.005*theory + 0.005*model + 0.004*function + 0.004*system + 0.004*we + 0.004*given + 0.004*value + 0.003*analysis + 0.003*data
+2016-04-12 17:05:09,661 : INFO : topic #66 (0.010): 0.049*island + 0.021*zealand + 0.020*islands + 0.012*bay + 0.010*sea + 0.010*coast + 0.007*antarctic + 0.006*beach + 0.006*ocean + 0.006*auckland
+2016-04-12 17:05:09,946 : INFO : topic #99 (0.010): 0.057*population + 0.057*district + 0.055*village + 0.052*township + 0.025*census + 0.015*town + 0.014*total + 0.010*average + 0.009*villages + 0.008*per
+2016-04-12 17:05:10,242 : INFO : topic #93 (0.010): 0.015*summit + 0.014*canal + 0.011*climbing + 0.008*darwin + 0.007*climb + 0.006*mountain + 0.005*ascent + 0.005*tanzania + 0.004*everest + 0.004*hop
+2016-04-12 17:05:10,500 : INFO : topic #59 (0.010): 0.047*station + 0.031*railway + 0.011*service + 0.011*train + 0.010*bus + 0.009*rail + 0.009*street + 0.009*trains + 0.008*services + 0.007*route
+2016-04-12 17:05:10,740 : INFO : topic diff=0.232152, rho=0.058824
+2016-04-12 17:05:16,807 : INFO : PROGRESS: pass 0, dispatched chunk #298 = documents up to #2990000/3507620, outstanding queue size 4
+2016-04-12 17:05:24,300 : INFO : PROGRESS: pass 0, dispatched chunk #299 = documents up to #3000000/3507620, outstanding queue size 4
+2016-04-12 17:05:32,564 : INFO : PROGRESS: pass 0, dispatched chunk #300 = documents up to #3010000/3507620, outstanding queue size 4
+2016-04-12 17:05:41,564 : INFO : PROGRESS: pass 0, dispatched chunk #301 = documents up to #3020000/3507620, outstanding queue size 4
+2016-04-12 17:05:51,010 : INFO : PROGRESS: pass 0, dispatched chunk #302 = documents up to #3030000/3507620, outstanding queue size 4
+2016-04-12 17:06:00,409 : INFO : PROGRESS: pass 0, dispatched chunk #303 = documents up to #3040000/3507620, outstanding queue size 4
+2016-04-12 17:06:09,967 : INFO : PROGRESS: pass 0, dispatched chunk #304 = documents up to #3050000/3507620, outstanding queue size 4
+2016-04-12 17:06:14,647 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 17:06:18,833 : INFO : topic #46 (0.010): 0.094*socorro + 0.092*linear + 0.048*peak + 0.043*anderson + 0.027*kitt + 0.025*spacewatch + 0.021*neat + 0.020*palomar + 0.019*mesa + 0.015*mount
+2016-04-12 17:06:19,083 : INFO : topic #68 (0.010): 0.024*tour + 0.023*golf + 0.022*jan + 0.022*oct + 0.021*nov + 0.020*mar + 0.019*dec + 0.018*aug + 0.017*feb + 0.015*mill
+2016-04-12 17:06:19,337 : INFO : topic #89 (0.010): 0.009*business + 0.008*bank + 0.007*million + 0.005*financial + 0.005*market + 0.005*companies + 0.005*economic + 0.005*development + 0.004*energy + 0.004*services
+2016-04-12 17:06:19,580 : INFO : topic #80 (0.010): 0.033*language + 0.012*languages + 0.006*indigenous + 0.006*ghana + 0.005*culture + 0.005*native + 0.005*spoken + 0.004*groups + 0.004*ethnic + 0.004*peoples
+2016-04-12 17:06:19,828 : INFO : topic #92 (0.010): 0.010*william + 0.009*james + 0.007*thomas + 0.007*george + 0.006*london + 0.006*robert + 0.005*david + 0.005*peter + 0.005*richard + 0.004*charles
+2016-04-12 17:06:20,064 : INFO : topic diff=0.233215, rho=0.058124
+2016-04-12 17:06:25,423 : INFO : PROGRESS: pass 0, dispatched chunk #305 = documents up to #3060000/3507620, outstanding queue size 4
+2016-04-12 17:06:31,832 : INFO : PROGRESS: pass 0, dispatched chunk #306 = documents up to #3070000/3507620, outstanding queue size 4
+2016-04-12 17:06:44,736 : INFO : PROGRESS: pass 0, dispatched chunk #307 = documents up to #3080000/3507620, outstanding queue size 3
+2016-04-12 17:06:49,106 : INFO : PROGRESS: pass 0, dispatched chunk #308 = documents up to #3090000/3507620, outstanding queue size 4
+2016-04-12 17:06:58,072 : INFO : PROGRESS: pass 0, dispatched chunk #309 = documents up to #3100000/3507620, outstanding queue size 4
+2016-04-12 17:07:08,623 : INFO : PROGRESS: pass 0, dispatched chunk #310 = documents up to #3110000/3507620, outstanding queue size 4
+2016-04-12 17:07:18,935 : INFO : PROGRESS: pass 0, dispatched chunk #311 = documents up to #3120000/3507620, outstanding queue size 4
+2016-04-12 17:07:23,532 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 17:07:27,227 : INFO : topic #13 (0.010): 0.017*research + 0.011*science + 0.011*institute + 0.008*professor + 0.007*engineering + 0.007*technology + 0.007*society + 0.007*education + 0.006*development + 0.006*award
+2016-04-12 17:07:27,380 : INFO : topic #92 (0.010): 0.010*william + 0.009*james + 0.007*thomas + 0.007*george + 0.006*london + 0.006*robert + 0.006*david + 0.005*peter + 0.005*richard + 0.004*charles
+2016-04-12 17:07:27,575 : INFO : topic #96 (0.010): 0.013*film + 0.010*novel + 0.009*fiction + 0.008*story + 0.006*science + 0.004*planet + 0.003*star + 0.003*earth + 0.003*short + 0.003*fantasy
+2016-04-12 17:07:27,762 : INFO : topic #16 (0.010): 0.026*species + 0.010*genus + 0.006*plant + 0.005*plants + 0.004*mm + 0.004*leaves + 0.004*white + 0.004*brown + 0.003*description + 0.003*common
+2016-04-12 17:07:27,952 : INFO : topic #91 (0.010): 0.032*party + 0.022*election + 0.014*minister + 0.011*elected + 0.010*president + 0.009*council + 0.008*liberal + 0.008*political + 0.008*elections + 0.007*parliament
+2016-04-12 17:07:28,157 : INFO : topic diff=0.240005, rho=0.057448
+2016-04-12 17:07:33,830 : INFO : PROGRESS: pass 0, dispatched chunk #312 = documents up to #3130000/3507620, outstanding queue size 4
+2016-04-12 17:07:40,971 : INFO : PROGRESS: pass 0, dispatched chunk #313 = documents up to #3140000/3507620, outstanding queue size 4
+2016-04-12 17:07:49,479 : INFO : PROGRESS: pass 0, dispatched chunk #314 = documents up to #3150000/3507620, outstanding queue size 4
+2016-04-12 17:07:58,297 : INFO : PROGRESS: pass 0, dispatched chunk #315 = documents up to #3160000/3507620, outstanding queue size 4
+2016-04-12 17:08:08,217 : INFO : PROGRESS: pass 0, dispatched chunk #316 = documents up to #3170000/3507620, outstanding queue size 4
+2016-04-12 17:08:17,981 : INFO : PROGRESS: pass 0, dispatched chunk #317 = documents up to #3180000/3507620, outstanding queue size 4
+2016-04-12 17:08:26,093 : INFO : PROGRESS: pass 0, dispatched chunk #318 = documents up to #3190000/3507620, outstanding queue size 4
+2016-04-12 17:08:30,603 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 17:08:34,640 : INFO : topic #96 (0.010): 0.014*film + 0.010*novel + 0.009*fiction + 0.008*story + 0.006*science + 0.004*planet + 0.004*star + 0.003*short + 0.003*earth + 0.003*bell
+2016-04-12 17:08:34,832 : INFO : topic #17 (0.010): 0.006*al + 0.003*malvern + 0.003*route + 0.003*paine + 0.002*system + 0.002*hoff + 0.002*jc + 0.001*population + 0.001*service + 0.001*french
+2016-04-12 17:08:35,021 : INFO : topic #13 (0.010): 0.017*research + 0.011*institute + 0.011*science + 0.008*professor + 0.007*engineering + 0.007*society + 0.007*technology + 0.007*education + 0.006*development + 0.006*award
+2016-04-12 17:08:35,210 : INFO : topic #35 (0.010): 0.020*ship + 0.017*navy + 0.011*ships + 0.010*naval + 0.007*fleet + 0.007*class + 0.007*crew + 0.006*sea + 0.006*service + 0.005*boat
+2016-04-12 17:08:35,401 : INFO : topic #92 (0.010): 0.010*william + 0.009*james + 0.007*thomas + 0.007*george + 0.006*london + 0.006*robert + 0.006*david + 0.005*peter + 0.005*richard + 0.004*charles
+2016-04-12 17:08:35,634 : INFO : topic diff=0.244401, rho=0.056796
+2016-04-12 17:08:40,605 : INFO : PROGRESS: pass 0, dispatched chunk #319 = documents up to #3200000/3507620, outstanding queue size 4
+2016-04-12 17:08:48,453 : INFO : PROGRESS: pass 0, dispatched chunk #320 = documents up to #3210000/3507620, outstanding queue size 3
+2016-04-12 17:08:54,837 : INFO : PROGRESS: pass 0, dispatched chunk #321 = documents up to #3220000/3507620, outstanding queue size 3
+2016-04-12 17:09:03,207 : INFO : PROGRESS: pass 0, dispatched chunk #322 = documents up to #3230000/3507620, outstanding queue size 4
+2016-04-12 17:09:13,545 : INFO : PROGRESS: pass 0, dispatched chunk #323 = documents up to #3240000/3507620, outstanding queue size 4
+2016-04-12 17:09:23,455 : INFO : PROGRESS: pass 0, dispatched chunk #324 = documents up to #3250000/3507620, outstanding queue size 4
+2016-04-12 17:09:33,185 : INFO : PROGRESS: pass 0, dispatched chunk #325 = documents up to #3260000/3507620, outstanding queue size 4
+2016-04-12 17:09:37,595 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 17:09:40,561 : INFO : topic #92 (0.010): 0.010*william + 0.009*james + 0.007*thomas + 0.007*george + 0.006*london + 0.006*robert + 0.006*david + 0.005*peter + 0.005*richard + 0.004*charles
+2016-04-12 17:09:40,767 : INFO : topic #82 (0.010): 0.050*glass + 0.014*fountain + 0.010*sims + 0.007*lego + 0.004*shoe + 0.004*snow + 0.004*sim + 0.004*crystal + 0.003*attic + 0.003*peg
+2016-04-12 17:09:41,020 : INFO : topic #29 (0.010): 0.022*army + 0.012*battle + 0.012*regiment + 0.010*division + 0.009*military + 0.009*infantry + 0.007*forces + 0.007*battalion + 0.007*brigade + 0.006*corps
+2016-04-12 17:09:41,213 : INFO : topic #62 (0.010): 0.014*san + 0.008*california + 0.007*los + 0.007*francisco + 0.007*el + 0.006*la + 0.006*miss + 0.005*juan + 0.004*angeles + 0.004*award
+2016-04-12 17:09:41,406 : INFO : topic #51 (0.010): 0.010*social + 0.006*self + 0.004*how + 0.003*psychology + 0.003*theory + 0.003*behavior + 0.003*individual + 0.003*person + 0.003*experience + 0.003*study
+2016-04-12 17:09:41,604 : INFO : topic diff=0.248442, rho=0.056166
+2016-04-12 17:09:46,933 : INFO : PROGRESS: pass 0, dispatched chunk #326 = documents up to #3270000/3507620, outstanding queue size 4
+2016-04-12 17:09:55,314 : INFO : PROGRESS: pass 0, dispatched chunk #327 = documents up to #3280000/3507620, outstanding queue size 4
+2016-04-12 17:10:03,425 : INFO : PROGRESS: pass 0, dispatched chunk #328 = documents up to #3290000/3507620, outstanding queue size 4
+2016-04-12 17:10:11,093 : INFO : PROGRESS: pass 0, dispatched chunk #329 = documents up to #3300000/3507620, outstanding queue size 4
+2016-04-12 17:10:20,793 : INFO : PROGRESS: pass 0, dispatched chunk #330 = documents up to #3310000/3507620, outstanding queue size 4
+2016-04-12 17:10:30,606 : INFO : PROGRESS: pass 0, dispatched chunk #331 = documents up to #3320000/3507620, outstanding queue size 4
+2016-04-12 17:10:40,056 : INFO : PROGRESS: pass 0, dispatched chunk #332 = documents up to #3330000/3507620, outstanding queue size 4
+2016-04-12 17:10:44,540 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 17:10:48,599 : INFO : topic #40 (0.010): 0.062*africa + 0.055*african + 0.021*cape + 0.018*nigeria + 0.009*belgian + 0.008*belgium + 0.008*nigerian + 0.008*town + 0.007*black + 0.005*brussels
+2016-04-12 17:10:48,848 : INFO : topic #83 (0.010): 0.071*jersey + 0.011*shark + 0.006*bedford + 0.006*newark + 0.006*monmouth + 0.006*bergen + 0.005*sami + 0.005*distillery + 0.004*sharks + 0.004*nj
+2016-04-12 17:10:49,094 : INFO : topic #87 (0.010): 0.016*championships + 0.015*men + 0.015*round + 0.015*women + 0.012*event + 0.011*rank + 0.010*medal + 0.010*kg + 0.007*open + 0.007*olympics
+2016-04-12 17:10:49,363 : INFO : topic #35 (0.010): 0.021*ship + 0.017*navy + 0.011*ships + 0.010*naval + 0.008*crew + 0.007*sea + 0.007*class + 0.007*fleet + 0.006*sunk + 0.006*service
+2016-04-12 17:10:49,605 : INFO : topic #74 (0.010): 0.023*game + 0.014*aircraft + 0.008*games + 0.006*air + 0.006*player + 0.006*flight + 0.005*engine + 0.004*version + 0.004*design + 0.004*wing
+2016-04-12 17:10:49,844 : INFO : topic diff=0.253323, rho=0.055556
+2016-04-12 17:10:54,954 : INFO : PROGRESS: pass 0, dispatched chunk #333 = documents up to #3340000/3507620, outstanding queue size 4
+2016-04-12 17:11:02,848 : INFO : PROGRESS: pass 0, dispatched chunk #334 = documents up to #3350000/3507620, outstanding queue size 4
+2016-04-12 17:11:10,419 : INFO : PROGRESS: pass 0, dispatched chunk #335 = documents up to #3360000/3507620, outstanding queue size 4
+2016-04-12 17:11:19,680 : INFO : PROGRESS: pass 0, dispatched chunk #336 = documents up to #3370000/3507620, outstanding queue size 4
+2016-04-12 17:11:29,626 : INFO : PROGRESS: pass 0, dispatched chunk #337 = documents up to #3380000/3507620, outstanding queue size 4
+2016-04-12 17:11:39,262 : INFO : PROGRESS: pass 0, dispatched chunk #338 = documents up to #3390000/3507620, outstanding queue size 4
+2016-04-12 17:11:49,124 : INFO : PROGRESS: pass 0, dispatched chunk #339 = documents up to #3400000/3507620, outstanding queue size 4
+2016-04-12 17:11:53,560 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 17:11:57,838 : INFO : topic #81 (0.010): 0.029*film + 0.007*award + 0.007*episode + 0.006*awards + 0.005*directed + 0.005*films + 0.005*television + 0.005*director + 0.005*actor + 0.005*cast
+2016-04-12 17:11:58,018 : INFO : topic #63 (0.010): 0.019*season + 0.014*league + 0.012*game + 0.009*football + 0.008*games + 0.008*player + 0.006*coach + 0.005*championship + 0.005*record + 0.005*round
+2016-04-12 17:11:58,199 : INFO : topic #75 (0.010): 0.013*college + 0.012*library + 0.011*students + 0.011*building + 0.009*hall + 0.008*sports + 0.008*girls + 0.008*center + 0.007*campus + 0.007*club
+2016-04-12 17:11:58,380 : INFO : topic #98 (0.010): 0.032*la + 0.028*french + 0.020*paris + 0.018*le + 0.015*france + 0.013*jean + 0.013*et + 0.013*du + 0.013*des + 0.010*les
+2016-04-12 17:11:58,566 : INFO : topic #60 (0.010): 0.021*asian + 0.019*housing + 0.018*taiwan + 0.010*taipei + 0.009*roc + 0.009*town + 0.009*white + 0.008*income + 0.008*hispanic + 0.008*population
+2016-04-12 17:11:58,735 : INFO : topic diff=0.259781, rho=0.054965
+2016-04-12 17:12:03,206 : INFO : PROGRESS: pass 0, dispatched chunk #340 = documents up to #3410000/3507620, outstanding queue size 4
+2016-04-12 17:12:11,239 : INFO : PROGRESS: pass 0, dispatched chunk #341 = documents up to #3420000/3507620, outstanding queue size 4
+2016-04-12 17:12:18,636 : INFO : PROGRESS: pass 0, dispatched chunk #342 = documents up to #3430000/3507620, outstanding queue size 3
+2016-04-12 17:12:27,273 : INFO : PROGRESS: pass 0, dispatched chunk #343 = documents up to #3440000/3507620, outstanding queue size 4
+2016-04-12 17:12:36,361 : INFO : PROGRESS: pass 0, dispatched chunk #344 = documents up to #3450000/3507620, outstanding queue size 4
+2016-04-12 17:12:44,530 : INFO : PROGRESS: pass 0, dispatched chunk #345 = documents up to #3460000/3507620, outstanding queue size 4
+2016-04-12 17:12:53,133 : INFO : PROGRESS: pass 0, dispatched chunk #346 = documents up to #3470000/3507620, outstanding queue size 4
+2016-04-12 17:12:57,321 : INFO : merging changes from 70000 documents into a model of 3507620 documents
+2016-04-12 17:13:01,656 : INFO : topic #14 (0.010): 0.044*km + 0.032*ft + 0.024*patent + 0.019*dna + 0.010*rna + 0.007*patents + 0.007*box + 0.007*genome + 0.007*calendar + 0.006*sequence
+2016-04-12 17:13:01,841 : INFO : topic #67 (0.010): 0.027*show + 0.019*tv + 0.015*television + 0.014*news + 0.011*channel + 0.009*pm + 0.009*season + 0.008*network + 0.007*broadcast + 0.007*week
+2016-04-12 17:13:02,019 : INFO : topic #35 (0.010): 0.023*ship + 0.017*navy + 0.011*ships + 0.010*naval + 0.009*crew + 0.008*sea + 0.007*class + 0.007*fleet + 0.006*service + 0.006*sunk
+2016-04-12 17:13:02,194 : INFO : topic #21 (0.010): 0.115*van + 0.011*gibbs + 0.009*houten + 0.007*holt + 0.005*napier + 0.005*guernsey + 0.004*groeneveld + 0.004*roche + 0.004*dice + 0.004*magnolia
+2016-04-12 17:13:02,368 : INFO : topic #30 (0.010): 0.024*india + 0.014*indian + 0.007*sri + 0.006*tamil + 0.006*temple + 0.006*singh + 0.005*pakistan + 0.005*khan + 0.004*kong + 0.004*delhi
+2016-04-12 17:13:02,555 : INFO : topic diff=0.260715, rho=0.054393
+2016-04-12 17:13:07,061 : INFO : PROGRESS: pass 0, dispatched chunk #347 = documents up to #3480000/3507620, outstanding queue size 4
+2016-04-12 17:13:15,445 : INFO : PROGRESS: pass 0, dispatched chunk #348 = documents up to #3490000/3507620, outstanding queue size 3
+2016-04-12 17:13:23,294 : INFO : PROGRESS: pass 0, dispatched chunk #349 = documents up to #3500000/3507620, outstanding queue size 3
+2016-04-12 17:13:29,850 : INFO : PROGRESS: pass 0, dispatched chunk #350 = documents up to #3507620/3507620, outstanding queue size 3
+2016-04-12 17:13:46,977 : INFO : merging changes from 67620 documents into a model of 3507620 documents
+2016-04-12 17:13:49,178 : INFO : topic #36 (0.010): 0.013*tango + 0.011*living + 0.007*older + 0.007*population + 0.007*walsingham + 0.006*average + 0.006*families + 0.006*income + 0.005*median + 0.005*census
+2016-04-12 17:13:49,333 : INFO : topic #2 (0.010): 0.009*district + 0.008*virginia + 0.007*washington + 0.007*republican + 0.007*ohio + 0.007*carolina + 0.006*pennsylvania + 0.006*florida + 0.006*historic + 0.006*illinois
+2016-04-12 17:13:49,488 : INFO : topic #0 (0.010): 0.011*german + 0.009*ret + 0.008*king + 0.008*von + 0.008*der + 0.007*prince + 0.006*italian + 0.006*di + 0.006*son + 0.006*germany
+2016-04-12 17:13:49,640 : INFO : topic #44 (0.010): 0.101*none + 0.091*mi + 0.049*alt + 0.019*sq + 0.006*km + 0.006*population + 0.006*versus + 0.006*living + 0.005*average + 0.004*chuck
+2016-04-12 17:13:49,795 : INFO : topic #6 (0.010): 0.033*px + 0.013*sir + 0.010*william + 0.010*australia + 0.008*australian + 0.007*son + 0.006*henry + 0.006*lord + 0.006*thomas + 0.006*london
+2016-04-12 17:13:49,952 : INFO : topic diff=0.266041, rho=0.053838
+2016-04-12 17:14:11,269 : INFO : -8.529 per-word bound, 369.3 perplexity estimate based on a held-out corpus of 7620 documents with 1181742 words
+2016-04-12 17:14:11,451 : INFO : saving LdaState object under gensim_lda_wiki_online.model.state, separately None
+2016-04-12 17:14:11,486 : INFO : saving LdaMulticore object under gensim_lda_wiki_online.model, separately None
+2016-04-12 17:14:11,486 : INFO : not storing attribute state
+2016-04-12 17:14:11,486 : INFO : not storing attribute dispatcher
+2016-04-12 17:14:11,646 : INFO : topic #0 (0.010): 0.011*german + 0.009*ret + 0.008*king + 0.008*von + 0.008*der + 0.007*prince + 0.006*italian + 0.006*di + 0.006*son + 0.006*germany
+2016-04-12 17:14:11,656 : INFO : topic #1 (0.010): 0.016*alaska + 0.011*elachista + 0.007*population + 0.007*scarborough + 0.007*census + 0.006*fairbanks + 0.006*clifton + 0.006*norwalk + 0.006*winslow + 0.005*fenton
+2016-04-12 17:14:11,666 : INFO : topic #2 (0.010): 0.009*district + 0.008*virginia + 0.007*washington + 0.007*republican + 0.007*ohio + 0.007*carolina + 0.006*pennsylvania + 0.006*florida + 0.006*historic + 0.006*illinois
+2016-04-12 17:14:11,675 : INFO : topic #3 (0.010): 0.016*russian + 0.011*soviet + 0.010*russia + 0.009*republic + 0.007*moscow + 0.006*oblast + 0.006*union + 0.005*ukraine + 0.004*communist + 0.004*european
+2016-04-12 17:14:11,685 : INFO : topic #4 (0.010): 0.037*art + 0.025*museum + 0.011*gallery + 0.009*arts + 0.009*artist + 0.008*works + 0.008*painting + 0.008*artists + 0.007*exhibition + 0.007*design
+2016-04-12 17:14:11,694 : INFO : topic #5 (0.010): 0.014*brazil + 0.011*da + 0.011*portuguese + 0.010*brazilian + 0.009*politician + 0.009*do + 0.008*rio + 0.007*player + 0.007*surname + 0.007*portugal
+2016-04-12 17:14:11,704 : INFO : topic #6 (0.010): 0.033*px + 0.013*sir + 0.010*william + 0.010*australia + 0.008*australian + 0.007*son + 0.006*henry + 0.006*lord + 0.006*thomas + 0.006*london
+2016-04-12 17:14:11,714 : INFO : topic #7 (0.010): 0.006*religious + 0.004*king + 0.004*pope + 0.004*church + 0.004*religion + 0.004*society + 0.004*catholic + 0.003*wrote + 0.003*england + 0.003*father
+2016-04-12 17:14:11,723 : INFO : topic #8 (0.010): 0.016*stein + 0.008*bangor + 0.007*population + 0.006*hooper + 0.006*burlington + 0.005*town + 0.005*census + 0.005*keystone + 0.004*median + 0.004*per
+2016-04-12 17:14:11,733 : INFO : topic #9 (0.010): 0.021*hughes + 0.012*rings + 0.009*ring + 0.005*tolkien + 0.005*elves + 0.005*lord + 0.004*dragons + 0.004*rohan + 0.004*horne + 0.004*elf
+2016-04-12 17:14:11,742 : INFO : topic #10 (0.010): 0.022*species + 0.012*black + 0.011*birds + 0.011*white + 0.009*fish + 0.008*bird + 0.007*red + 0.006*animals + 0.005*wildlife + 0.004*animal
+2016-04-12 17:14:11,752 : INFO : topic #11 (0.010): 0.043*bc + 0.023*roman + 0.012*king + 0.012*sovereign + 0.010*rome + 0.009*ad + 0.009*empire + 0.008*emperor + 0.008*title + 0.007*type
+2016-04-12 17:14:11,761 : INFO : topic #12 (0.010): 0.011*bridge + 0.008*mm + 0.007*fire + 0.005*power + 0.005*class + 0.005*construction + 0.005*design + 0.005*steel + 0.004*vehicle + 0.004*system
+2016-04-12 17:14:11,771 : INFO : topic #13 (0.010): 0.018*research + 0.011*institute + 0.011*science + 0.008*professor + 0.007*engineering + 0.007*society + 0.007*technology + 0.007*education + 0.006*development + 0.006*award
+2016-04-12 17:14:11,780 : INFO : topic #14 (0.010): 0.048*km + 0.034*ft + 0.025*patent + 0.020*dna + 0.010*rna + 0.007*patents + 0.007*genome + 0.007*box + 0.007*calendar + 0.006*sequence
+2016-04-12 17:14:11,790 : INFO : topic #15 (0.010): 0.055*church + 0.016*bishop + 0.015*catholic + 0.008*diocese + 0.008*christian + 0.006*christ + 0.006*churches + 0.006*holy + 0.006*roman + 0.005*cathedral
+2016-04-12 17:14:11,799 : INFO : topic #16 (0.010): 0.028*species + 0.011*genus + 0.006*plant + 0.005*plants + 0.004*mm + 0.004*brown + 0.004*description + 0.004*white + 0.004*leaves + 0.003*common
+2016-04-12 17:14:11,809 : INFO : topic #17 (0.010): 0.005*al + 0.005*malvern + 0.004*paine + 0.003*route + 0.003*jc + 0.003*icarus + 0.003*hoff + 0.002*system + 0.002*tia + 0.002*wtc
+2016-04-12 17:14:11,818 : INFO : topic #18 (0.010): 0.005*model + 0.005*function + 0.005*example + 0.005*theory + 0.004*system + 0.004*data + 0.004*value + 0.004*we + 0.004*analysis + 0.004*given
+2016-04-12 17:14:11,828 : INFO : topic #19 (0.010): 0.019*china + 0.018*chinese + 0.008*korea + 0.007*korean + 0.007*li + 0.006*kim + 0.005*dynasty + 0.005*wang + 0.005*hong + 0.005*emperor
+2016-04-12 17:14:11,837 : INFO : topic #20 (0.010): 0.034*park + 0.021*lake + 0.020*river + 0.013*creek + 0.009*valley + 0.008*forest + 0.007*water + 0.007*dam + 0.007*trail + 0.006*land
+2016-04-12 17:14:11,847 : INFO : topic #21 (0.010): 0.124*van + 0.011*gibbs + 0.009*houten + 0.007*holt + 0.005*napier + 0.005*guernsey + 0.004*roche + 0.004*groeneveld + 0.004*magnolia + 0.004*dice
+2016-04-12 17:14:11,856 : INFO : topic #22 (0.010): 0.007*storm + 0.007*tropical + 0.006*water + 0.005*wind + 0.004*damage + 0.004*solar + 0.004*earth + 0.004*hurricane + 0.004*km + 0.004*surface
+2016-04-12 17:14:11,866 : INFO : topic #23 (0.010): 0.050*air + 0.024*force + 0.020*squadron + 0.010*aircraft + 0.009*base + 0.009*training + 0.008*command + 0.008*wing + 0.008*unit + 0.008*vietnam
+2016-04-12 17:14:11,876 : INFO : topic #24 (0.010): 0.064*tree + 0.023*oak + 0.022*trees + 0.017*christmas + 0.011*namibia + 0.011*aurora + 0.005*rope + 0.005*trunk + 0.005*bison + 0.005*mast
+2016-04-12 17:14:11,885 : INFO : topic #25 (0.010): 0.065*water + 0.016*rider + 0.009*riders + 0.009*cycling + 0.009*bicycle + 0.008*bike + 0.007*milk + 0.006*uci + 0.006*lr + 0.006*diamond
+2016-04-12 17:14:11,894 : INFO : topic #26 (0.010): 0.079*radio + 0.053*fm + 0.046*station + 0.030*am + 0.017*broadcasting + 0.013*stations + 0.012*format + 0.010*inc + 0.007*call + 0.007*owned
+2016-04-12 17:14:11,904 : INFO : topic #27 (0.010): 0.023*mine + 0.015*mining + 0.013*sb + 0.010*pb + 0.010*copper + 0.010*pr + 0.010*na + 0.009*min + 0.009*ms + 0.009*gold
+2016-04-12 17:14:11,913 : INFO : topic #28 (0.010): 0.015*law + 0.013*court + 0.012*act + 0.006*rights + 0.006*case + 0.005*legal + 0.004*federal + 0.004*justice + 0.003*supreme + 0.003*amendment
+2016-04-12 17:14:11,923 : INFO : topic #29 (0.010): 0.023*army + 0.012*battle + 0.012*regiment + 0.010*division + 0.010*military + 0.009*infantry + 0.008*brigade + 0.007*forces + 0.007*battalion + 0.007*corps
+2016-04-12 17:14:11,932 : INFO : topic #30 (0.010): 0.024*india + 0.015*indian + 0.007*sri + 0.006*tamil + 0.006*singh + 0.006*temple + 0.005*pakistan + 0.005*khan + 0.004*kong + 0.004*delhi
+2016-04-12 17:14:11,942 : INFO : topic #31 (0.010): 0.037*switzerland + 0.034*swiss + 0.012*alps + 0.011*slovenia + 0.010*canton + 0.010*basel + 0.010*ch + 0.009*zurich + 0.009*bern + 0.009*geneva
+2016-04-12 17:14:11,951 : INFO : topic #32 (0.010): 0.030*college + 0.028*education + 0.027*students + 0.018*schools + 0.010*district + 0.009*program + 0.009*student + 0.007*community + 0.007*grade + 0.006*elementary
+2016-04-12 17:14:11,961 : INFO : topic #33 (0.010): 0.009*http + 0.008*data + 0.008*software + 0.007*system + 0.007*com + 0.006*www + 0.005*network + 0.005*digital + 0.005*web + 0.005*mobile
+2016-04-12 17:14:11,970 : INFO : topic #34 (0.010): 0.040*est + 0.014*population + 0.006*ancestry + 0.005*birth + 0.005*haplogroup + 0.004*genetic + 0.004*str + 0.004*per + 0.004*burr + 0.004*populations
+2016-04-12 17:14:11,980 : INFO : topic #35 (0.010): 0.023*ship + 0.017*navy + 0.011*ships + 0.010*naval + 0.009*crew + 0.008*sea + 0.007*class + 0.007*fleet + 0.006*service + 0.006*sunk
+2016-04-12 17:14:11,990 : INFO : topic #36 (0.010): 0.013*tango + 0.011*living + 0.007*older + 0.007*population + 0.007*walsingham + 0.006*average + 0.006*families + 0.006*income + 0.005*median + 0.005*census
+2016-04-12 17:14:11,999 : INFO : topic #37 (0.010): 0.015*police + 0.007*security + 0.006*president + 0.006*said + 0.006*military + 0.004*killed + 0.004*department + 0.004*chief + 0.003*officer + 0.003*service
+2016-04-12 17:14:12,009 : INFO : topic #38 (0.010): 0.026*ireland + 0.017*irish + 0.010*dublin + 0.009*pp + 0.007*philosophy + 0.006*vol + 0.006*press + 0.006*cork + 0.005*ed + 0.004*theory
+2016-04-12 17:14:12,018 : INFO : topic #39 (0.010): 0.033*ap + 0.017*hopkins + 0.017*atlas + 0.014*philippines + 0.013*auburn + 0.013*johns + 0.010*crane + 0.008*mindanao + 0.008*luna + 0.008*philippine
+2016-04-12 17:14:12,027 : INFO : topic #40 (0.010): 0.065*africa + 0.058*african + 0.021*cape + 0.018*nigeria + 0.010*belgian + 0.009*belgium + 0.009*nigerian + 0.008*town + 0.007*black + 0.006*brussels
+2016-04-12 17:14:12,036 : INFO : topic #41 (0.010): 0.035*dutch + 0.023*netherlands + 0.019*swedish + 0.018*indonesia + 0.016*finland + 0.016*sweden + 0.014*van + 0.014*finnish + 0.010*indonesian + 0.009*amsterdam
+2016-04-12 17:14:12,046 : INFO : topic #42 (0.010): 0.024*greek + 0.011*serbian + 0.010*greece + 0.007*letter + 0.007*serbia + 0.007*stamps + 0.007*xxx + 0.006*belgrade + 0.006*letters + 0.006*stamp
+2016-04-12 17:14:12,055 : INFO : topic #43 (0.010): 0.047*space + 0.017*mission + 0.014*launch + 0.012*nasa + 0.011*satellite + 0.009*rocket + 0.009*orbit + 0.008*test + 0.007*moon + 0.007*sts
+2016-04-12 17:14:12,064 : INFO : topic #44 (0.010): 0.101*none + 0.091*mi + 0.049*alt + 0.019*sq + 0.006*km + 0.006*population + 0.006*versus + 0.006*living + 0.005*average + 0.004*chuck
+2016-04-12 17:14:12,074 : INFO : topic #45 (0.010): 0.039*gay + 0.022*sex + 0.012*sexual + 0.012*lesbian + 0.011*gender + 0.011*lgbt + 0.011*women + 0.009*pride + 0.007*male + 0.007*parade
+2016-04-12 17:14:12,084 : INFO : topic #46 (0.010): 0.089*linear + 0.086*socorro + 0.057*peak + 0.054*anderson + 0.027*kitt + 0.025*spacewatch + 0.022*neat + 0.021*mesa + 0.020*mount + 0.019*palomar
+2016-04-12 17:14:12,093 : INFO : topic #47 (0.010): 0.034*health + 0.032*medical + 0.029*hospital + 0.016*care + 0.014*medicine + 0.013*services + 0.010*children + 0.009*dr + 0.007*patients + 0.007*center
+2016-04-12 17:14:12,103 : INFO : topic #48 (0.010): 0.004*man + 0.004*episode + 0.004*character + 0.003*story + 0.003*characters + 0.003*get + 0.003*father + 0.002*tells + 0.002*game + 0.002*find
+2016-04-12 17:14:12,113 : INFO : topic #49 (0.010): 0.016*amber + 0.007*kearney + 0.005*comstock + 0.004*igbo + 0.004*population + 0.004*township + 0.004*correa + 0.003*hopewell + 0.003*manx + 0.003*median
+2016-04-12 17:14:12,122 : INFO : topic #50 (0.010): 0.027*album + 0.015*band + 0.015*song + 0.011*chart + 0.009*track + 0.007*vocals + 0.007*guitar + 0.007*records + 0.007*you + 0.006*video
+2016-04-12 17:14:12,132 : INFO : topic #51 (0.010): 0.010*social + 0.008*self + 0.004*how + 0.003*psychology + 0.003*theory + 0.003*experience + 0.003*behavior + 0.003*individual + 0.003*study + 0.003*children
+2016-04-12 17:14:12,141 : INFO : topic #52 (0.010): 0.116*texas + 0.026*houston + 0.023*austin + 0.017*dallas + 0.009*mexico + 0.008*antonio + 0.006*tx + 0.006*mexican + 0.005*san + 0.004*baylor
+2016-04-12 17:14:12,150 : INFO : topic #53 (0.010): 0.025*river + 0.023*canada + 0.015*canadian + 0.012*ontario + 0.009*mountain + 0.007*lake + 0.007*philippines + 0.006*columbia + 0.006*mountains + 0.006*california
+2016-04-12 17:14:12,160 : INFO : topic #54 (0.010): 0.038*al + 0.008*turkish + 0.008*arab + 0.007*ali + 0.006*islamic + 0.006*turkey + 0.006*muslim + 0.006*egypt + 0.005*iran + 0.005*muhammad
+2016-04-12 17:14:12,169 : INFO : topic #55 (0.010): 0.078*yes + 0.043*kenya + 0.030*flag + 0.029*uganda + 0.010*kenyan + 0.010*nairobi + 0.007*tanzania + 0.007*mauritius + 0.006*african + 0.006*kampala
+2016-04-12 17:14:12,179 : INFO : topic #56 (0.010): 0.028*card + 0.025*game + 0.023*player + 0.020*cards + 0.018*players + 0.012*points + 0.010*mw + 0.008*play + 0.007*games + 0.006*hand
+2016-04-12 17:14:12,188 : INFO : topic #57 (0.010): 0.037*japan + 0.037*align + 0.033*bar + 0.032*text + 0.028*japanese + 0.019*till + 0.013*tokyo + 0.012*color + 0.008*width + 0.007*shift
+2016-04-12 17:14:12,197 : INFO : topic #58 (0.010): 0.043*airport + 0.023*poland + 0.023*polish + 0.019*norwegian + 0.015*norway + 0.008*airlines + 0.008*oslo + 0.007*voivodeship + 0.007*air + 0.007*warsaw
+2016-04-12 17:14:12,207 : INFO : topic #59 (0.010): 0.047*station + 0.035*railway + 0.012*train + 0.011*service + 0.010*bus + 0.009*rail + 0.009*trains + 0.008*services + 0.008*street + 0.008*route
+2016-04-12 17:14:12,216 : INFO : topic #60 (0.010): 0.023*asian + 0.022*taiwan + 0.019*housing + 0.012*taipei + 0.009*white + 0.009*roc + 0.009*town + 0.008*square + 0.008*income + 0.008*hispanic
+2016-04-12 17:14:12,226 : INFO : topic #61 (0.010): 0.006*cells + 0.006*cell + 0.004*protein + 0.004*disease + 0.004*chemical + 0.003*acid + 0.003*gene + 0.003*treatment + 0.003*blood + 0.003*reaction
+2016-04-12 17:14:12,235 : INFO : topic #62 (0.010): 0.014*san + 0.008*california + 0.008*los + 0.007*el + 0.007*la + 0.007*francisco + 0.006*miss + 0.005*juan + 0.005*angeles + 0.004*del
+2016-04-12 17:14:12,244 : INFO : topic #63 (0.010): 0.020*season + 0.014*league + 0.012*game + 0.009*football + 0.008*games + 0.008*player + 0.006*coach + 0.005*championship + 0.005*record + 0.005*round
+2016-04-12 17:14:12,254 : INFO : topic #64 (0.010): 0.051*category + 0.018*graph + 0.011*edge + 0.010*px + 0.010*regular + 0.009*faces + 0.009*vertices + 0.008*triangle + 0.008*cube + 0.008*vertex
+2016-04-12 17:14:12,263 : INFO : topic #65 (0.010): 0.022*book + 0.018*published + 0.013*books + 0.011*isbn + 0.008*press + 0.007*poetry + 0.007*author + 0.007*magazine + 0.007*works + 0.006*literature
+2016-04-12 17:14:12,273 : INFO : topic #66 (0.010): 0.051*island + 0.025*zealand + 0.021*islands + 0.014*bay + 0.012*sea + 0.011*coast + 0.008*beach + 0.007*antarctic + 0.007*auckland + 0.007*ocean
+2016-04-12 17:14:12,282 : INFO : topic #67 (0.010): 0.027*show + 0.019*tv + 0.015*television + 0.014*news + 0.011*channel + 0.009*pm + 0.009*season + 0.008*network + 0.008*broadcast + 0.007*week
+2016-04-12 17:14:12,292 : INFO : topic #68 (0.010): 0.033*tour + 0.026*nov + 0.024*jan + 0.024*oct + 0.024*golf + 0.023*mar + 0.021*dec + 0.019*feb + 0.018*aug + 0.016*open
+2016-04-12 17:14:12,301 : INFO : topic #69 (0.010): 0.015*church + 0.012*building + 0.009*town + 0.009*village + 0.006*buildings + 0.006*jpg + 0.005*municipality + 0.005*historic + 0.005*stone + 0.004*district
+2016-04-12 17:14:12,311 : INFO : topic #70 (0.010): 0.016*win + 0.012*match + 0.011*championship + 0.011*wrestling + 0.008*title + 0.007*fight + 0.006*defeated + 0.006*champion + 0.006*vs + 0.006*tag
+2016-04-12 17:14:12,320 : INFO : topic #71 (0.010): 0.055*saint + 0.028*france + 0.017*scotland + 0.012*la + 0.012*french + 0.011*commune + 0.010*glasgow + 0.009*scottish + 0.009*sur + 0.009*department
+2016-04-12 17:14:12,330 : INFO : topic #72 (0.010): 0.021*racing + 0.017*car + 0.015*race + 0.009*ford + 0.008*engine + 0.007*driver + 0.007*cars + 0.006*gt + 0.006*championship + 0.005*cc
+2016-04-12 17:14:12,339 : INFO : topic #73 (0.010): 0.119*castle + 0.011*bailey + 0.010*oz + 0.010*castles + 0.005*berg + 0.003*baum + 0.003*motte + 0.003*hilton + 0.003*ruins + 0.003*king
+2016-04-12 17:14:12,349 : INFO : topic #74 (0.010): 0.024*game + 0.014*aircraft + 0.008*games + 0.006*player + 0.006*air + 0.006*flight + 0.005*engine + 0.004*version + 0.004*wing + 0.004*design
+2016-04-12 17:14:12,358 : INFO : topic #75 (0.010): 0.014*college + 0.012*library + 0.011*building + 0.011*students + 0.010*hall + 0.009*sports + 0.008*girls + 0.008*center + 0.008*club + 0.007*campus
+2016-04-12 17:14:12,368 : INFO : topic #76 (0.010): 0.025*league + 0.024*club + 0.022*cup + 0.016*season + 0.015*football + 0.011*goals + 0.009*fc + 0.009*division + 0.008*round + 0.007*teams
+2016-04-12 17:14:12,377 : INFO : topic #77 (0.010): 0.014*food + 0.009*wine + 0.005*rice + 0.005*restaurant + 0.004*sugar + 0.004*meat + 0.004*tea + 0.004*coffee + 0.003*chef + 0.003*products
+2016-04-12 17:14:12,387 : INFO : topic #78 (0.010): 0.018*op + 0.017*piano + 0.012*minor + 0.007*musical + 0.006*instruments + 0.006*bach + 0.006*organ + 0.006*movement + 0.005*string + 0.005*sonata
+2016-04-12 17:14:12,396 : INFO : topic #79 (0.010): 0.071*wales + 0.035*rugby + 0.034*welsh + 0.017*cardiff + 0.014*union + 0.010*rfc + 0.008*newport + 0.008*swansea + 0.006*town + 0.004*cymru
+2016-04-12 17:14:12,405 : INFO : topic #80 (0.010): 0.059*language + 0.049*languages + 0.013*children + 0.008*parent + 0.006*central + 0.005*congo + 0.005*indigenous + 0.005*culture + 0.005*ghana + 0.005*native
+2016-04-12 17:14:12,415 : INFO : topic #81 (0.010): 0.029*film + 0.007*award + 0.007*episode + 0.006*awards + 0.005*directed + 0.005*films + 0.005*television + 0.005*director + 0.005*actor + 0.005*cast
+2016-04-12 17:14:12,424 : INFO : topic #82 (0.010): 0.062*glass + 0.017*fountain + 0.010*sims + 0.008*lego + 0.006*snow + 0.005*shoe + 0.005*crystal + 0.005*sim + 0.003*attic + 0.003*peg
+2016-04-12 17:14:12,434 : INFO : topic #83 (0.010): 0.083*jersey + 0.012*shark + 0.007*newark + 0.006*bedford + 0.006*monmouth + 0.006*sami + 0.006*bergen + 0.005*distillery + 0.005*whisky + 0.005*nj
+2016-04-12 17:14:12,443 : INFO : topic #84 (0.010): 0.022*horse + 0.012*race + 0.012*stakes + 0.009*horses + 0.007*racing + 0.007*beer + 0.006*derby + 0.005*brewery + 0.005*drug + 0.004*winner
+2016-04-12 17:14:12,452 : INFO : topic #85 (0.010): 0.007*population + 0.007*gaz + 0.007*ct + 0.007*lowell + 0.005*living + 0.005*town + 0.005*census + 0.005*households + 0.004*average + 0.004*size
+2016-04-12 17:14:12,462 : INFO : topic #86 (0.010): 0.007*image + 0.005*body + 0.004*right + 0.004*file + 0.004*brain + 0.003*svg + 0.003*system + 0.003*png + 0.003*side + 0.003*syndrome
+2016-04-12 17:14:12,471 : INFO : topic #87 (0.010): 0.016*championships + 0.016*round + 0.015*men + 0.015*women + 0.012*event + 0.012*rank + 0.010*medal + 0.009*kg + 0.007*draw + 0.007*open
+2016-04-12 17:14:12,481 : INFO : topic #88 (0.010): 0.032*ball + 0.006*game + 0.006*robinson + 0.006*balls + 0.005*players + 0.004*hit + 0.004*play + 0.003*baseball + 0.003*homer + 0.003*player
+2016-04-12 17:14:12,491 : INFO : topic #89 (0.010): 0.009*business + 0.008*bank + 0.007*million + 0.005*financial + 0.005*market + 0.005*companies + 0.005*economic + 0.005*development + 0.005*energy + 0.005*services
+2016-04-12 17:14:12,501 : INFO : topic #90 (0.010): 0.010*jewish + 0.009*god + 0.009*israel + 0.004*israeli + 0.004*you + 0.004*rabbi + 0.004*jerusalem + 0.003*jews + 0.003*we + 0.003*said
+2016-04-12 17:14:12,510 : INFO : topic #91 (0.010): 0.033*party + 0.022*election + 0.015*minister + 0.012*elected + 0.011*president + 0.010*council + 0.008*political + 0.008*liberal + 0.008*elections + 0.008*assembly
+2016-04-12 17:14:12,519 : INFO : topic #92 (0.010): 0.010*william + 0.010*james + 0.008*thomas + 0.007*george + 0.006*robert + 0.006*david + 0.006*london + 0.005*peter + 0.005*richard + 0.005*charles
+2016-04-12 17:14:12,529 : INFO : topic #93 (0.010): 0.021*summit + 0.018*canal + 0.011*climbing + 0.010*climb + 0.010*mountain + 0.009*darwin + 0.007*es + 0.006*ascent + 0.005*tanzania + 0.005*everest
+2016-04-12 17:14:12,538 : INFO : topic #94 (0.010): 0.042*road + 0.019*route + 0.015*street + 0.014*highway + 0.012*hotel + 0.010*building + 0.007*us + 0.006*malaysia + 0.006*centre + 0.006*sr
+2016-04-12 17:14:12,548 : INFO : topic #95 (0.010): 0.009*song + 0.007*you + 0.006*orchestra + 0.006*love + 0.006*album + 0.005*piano + 0.005*performed + 0.005*songs + 0.005*jazz + 0.005*me
+2016-04-12 17:14:12,557 : INFO : topic #96 (0.010): 0.015*film + 0.010*novel + 0.009*story + 0.008*fiction + 0.006*science + 0.004*planet + 0.004*star + 0.004*short + 0.003*plot + 0.003*fantasy
+2016-04-12 17:14:12,567 : INFO : topic #97 (0.010): 0.023*town + 0.022*london + 0.018*england + 0.008*parish + 0.007*uk + 0.007*birmingham + 0.006*borough + 0.006*yorkshire + 0.005*council + 0.005*bristol
+2016-04-12 17:14:12,576 : INFO : topic #98 (0.010): 0.033*la + 0.029*french + 0.020*paris + 0.019*le + 0.015*france + 0.014*jean + 0.013*et + 0.013*du + 0.013*des + 0.010*les
+2016-04-12 17:14:12,586 : INFO : topic #99 (0.010): 0.088*district + 0.074*village + 0.053*population + 0.043*township + 0.024*census + 0.018*town + 0.016*rural + 0.013*total + 0.010*villages + 0.009*statistical
+	Command being timed: "python gensim_train_wiki.py"
+	User time (seconds): 12852.45
+	System time (seconds): 19201.35
+	Percent of CPU this job got: 743%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:11:53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3128800
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 177857096
+	Voluntary context switches: 6005528
+	Involuntary context switches: 3588886026
+	Swaps: 0
+	File system inputs: 32
+	File system outputs: 310536
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
